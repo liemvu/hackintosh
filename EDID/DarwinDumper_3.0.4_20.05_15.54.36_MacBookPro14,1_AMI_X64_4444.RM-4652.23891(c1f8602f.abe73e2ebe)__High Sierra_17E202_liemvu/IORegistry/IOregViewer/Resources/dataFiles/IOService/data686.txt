@@ -1,0 +1,18 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"278083","ColType":"Number","ColValue":"10203"}},
+{"data":{"title":"LocationID"},"attr":{"id":"278085","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"278087","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"278089","ColType":"Data","ColValue":"&lt;05010906a1018501050719e029e71500250175019508810295017508810195067508150026ff000507190029ff8100c0050c0901a1018502050c95067508150026ff00190029ff8100c00600ff0901a101850305ff95067508150026ff00190029ff8100c00600ff0906a10185040601ff95067508150026ff00190029ff8100c0&gt;"}},
+{"data":{"title":"VendorID"},"attr":{"id":"278091","ColType":"Number","ColValue":"5824"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"278093","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"278095","ColType":"Number","ColValue":"9"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"278097","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"278099","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"278101","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"278102","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"278104","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"278106","ColType":"Number","ColValue":"6"}}]},{"data":{"title":"1"},"attr":{"id":"278107","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"278109","ColType":"Number","ColValue":"12"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"278111","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"2"},"attr":{"id":"278112","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"278114","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"278116","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"3"},"attr":{"id":"278117","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"278119","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"278121","ColType":"Number","ColValue":"6"}}]}]},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"278123","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"SerialNumber"},"attr":{"id":"278125","ColType":"String","ColValue":"pqrs.org:org_pqrs_driver_Karabiner_VirtualHIDDevice_VirtualHIDKeyboard_v060600"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"278127","ColType":"String","ColValue":"pqrs.org"}},
+{"data":{"title":"Product"},"attr":{"id":"278129","ColType":"String","ColValue":"Karabiner VirtualHIDKeyboard"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"278131","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"278133","ColType":"Number","ColValue":"0"}}
+]

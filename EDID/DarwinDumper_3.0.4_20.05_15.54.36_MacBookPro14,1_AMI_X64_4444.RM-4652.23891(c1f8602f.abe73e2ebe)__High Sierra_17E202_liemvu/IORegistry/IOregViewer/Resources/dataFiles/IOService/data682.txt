@@ -1,0 +1,7 @@
+[
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"230093","ColType":"String","ColValue":"BrcmPatchRAMResidency"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"230095","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"230097","ColType":"String","ColValue":"com.no-one.BrcmPatchRAM2"}},
+{"data":{"title":"IOClass"},"attr":{"id":"230099","ColType":"String","ColValue":"BrcmPatchRAMResidency"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"230101","ColType":"String","ColValue":"IOResources"}}
+]

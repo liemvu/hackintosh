@@ -1,0 +1,5 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"4470","ColType":"Number","ColValue":"15"}},
+{"data":{"title":"name"},"attr":{"id":"4472","ColType":"Data","ColValue":"&lt;\"DLL07A0\"&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"4474","ColType":"Data","ColValue":"&lt;\"PNP0C50\"&gt;"}}
+]

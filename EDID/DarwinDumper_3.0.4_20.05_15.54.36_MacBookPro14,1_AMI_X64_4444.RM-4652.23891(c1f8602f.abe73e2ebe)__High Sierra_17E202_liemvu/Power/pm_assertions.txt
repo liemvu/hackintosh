@@ -1,0 +1,21 @@
+2018-05-20 15:55:10 +0700 
+Assertion status system-wide:
+   BackgroundTask                 1
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 98(hidd): [0x0000000d00098021] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294968780.17" 
+	Timeout will fire in 600 secs Action=TimeoutActionRelease
+   pid 61(mds): [0x00000007000b8008] 00:01:32 BackgroundTask named: "com.apple.metadata.mds.power" 
+   pid 214(mds_stores): [0x00000007000b8009] 00:01:32 BackgroundTask named: "com.apple.metadata.mds_stores.power" 
+Kernel Assertions: 0x4=USB
+   id=500  level=255 0x4=USB mod=1/1/70, 8:00 AM description=com.apple.usb.externaldevice.14500000 owner=Integrated_Webcam_HD
+   id=501  level=255 0x4=USB mod=1/1/70, 8:00 AM description=com.apple.usb.externaldevice.14a00000 owner=5880
+   id=502  level=255 0x4=USB mod=1/1/70, 8:00 AM description=com.apple.usb.externaldevice.14700000 owner=BCM2045A0
+   id=503  level=255 0x4=USB mod=1/1/70, 8:00 AM description=com.apple.usb.externaldevice.14100000 owner=USB Receiver
+Idle sleep preventers: IODisplayWrangler

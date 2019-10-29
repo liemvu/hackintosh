@@ -1,0 +1,16 @@
+[
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"67848","ColType":"String","ColValue":"22"}},
+{"data":{"title":"Product Name"},"attr":{"id":"67850","ColType":"String","ColValue":"PCI Serial Adapter (22)"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"67852","ColType":"String","ColValue":"com.apple.iokit.IOSerialFamily"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"67854","ColType":"String","ColValue":"pci-serial"}},
+{"data":{"title":"IOClass"},"attr":{"id":"67856","ColType":"String","ColValue":"IOSerialBSDClient"}},
+{"data":{"title":"IOSerialBSDClientType"},"attr":{"id":"67858","ColType":"String","ColValue":"IORS232SerialStream"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"67860","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"67862","ColType":"String","ColValue":"IOBSD"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"67864","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOTTYDevice"},"attr":{"id":"67866","ColType":"String","ColValue":"pci-serial22"}},
+{"data":{"title":"IOCalloutDevice"},"attr":{"id":"67868","ColType":"String","ColValue":"/dev/cu.pci-serial22"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"67870","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IODialinDevice"},"attr":{"id":"67872","ColType":"String","ColValue":"/dev/tty.pci-serial22"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"67874","ColType":"String","ColValue":"IOSerialStreamSync"}}
+]

@@ -1,0 +1,59 @@
+Array Length:16384 bytes
+Array Block Count (512 bytes):32
+
+=====================================================
+
+Partition Type GUID: EFI System Partition
+Partition Unique GUID: a7bacae6-08f9-4eb7-9a71-2914220c801d
+Partition Starting LBA: 40
+Partition Ending LBA: 409639
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: EFI System Partition
+Partition Reserved Byte: OK
+Partition Size: 209.71MB
+Partition Loader: Apple EFI
+
+=====================================================
+
+Partition Type GUID: HFS+
+Partition Unique GUID: 31fd88e8-0636-4888-8877-c2f1536f3708
+Partition Starting LBA: 409640
+Partition Ending LBA: 748947679
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: 
+Partition Reserved Byte: OK
+Partition Size: 383.25GB
+
+=====================================================
+
+Partition Type GUID: OSX Boot
+Partition Unique GUID: 61a4bd54-c094-409d-a060-beb2cafc9645
+Partition Starting LBA: 748947680
+Partition Ending LBA: 750217215
+Partition UEFI Reserved Attributes: 0000000000000200
+Partition Name: 
+Partition Reserved Byte: OK
+Partition Size: 650.00MB
+
+=====================================================
+
+Partition Type GUID: Windows Basic Data
+Partition Unique GUID: bce1a99d-13da-4ad9-8149-bd1299a28a41
+Partition Starting LBA: 750217216
+Partition Ending LBA: 999952383
+Partition UEFI Reserved Attributes: 0000000000000000
+Partition Name: 
+Partition Reserved Byte: OK
+Partition Size: 127.86GB
+Partition Loader: Windows NTFS NTLDR
+
+=====================================================
+
+Partition Type GUID: Microsoft Reserved Partition
+Partition Unique GUID: 827b0753-f3c2-463c-bdb1-9ea3ed17a992
+Partition Starting LBA: 999952384
+Partition Ending LBA: 999985151
+Partition UEFI Reserved Attributes: 0000000000000080
+Partition Name: Microsoft reserved partition
+Partition Reserved Byte: OK
+Partition Size: 16.77MB

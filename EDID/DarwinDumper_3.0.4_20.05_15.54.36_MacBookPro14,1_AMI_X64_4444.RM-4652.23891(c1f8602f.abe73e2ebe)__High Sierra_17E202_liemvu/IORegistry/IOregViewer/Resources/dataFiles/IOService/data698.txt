@@ -1,0 +1,14 @@
+[
+{"data":{"title":"logIPGStyle"},"attr":{"id":"305662","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"logIGPU"},"attr":{"id":"305664","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"enableHWP"},"attr":{"id":"305666","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"305668","ColType":"String","ColValue":"com.pikeralpha.driver.AppleIntelInfo"}},
+{"data":{"title":"IOClass"},"attr":{"id":"305670","ColType":"String","ColValue":"AppleIntelInfo"}},
+{"data":{"title":"logCStates"},"attr":{"id":"305672","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"305674","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"305676","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"305678","ColType":"String","ColValue":"AppleIntelInfo"}},
+{"data":{"title":"logIntelRegs"},"attr":{"id":"305680","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"305682","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"logMSRs"},"attr":{"id":"305684","ColType":"Boolean","ColValue":"Yes"}}
+]

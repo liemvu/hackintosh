@@ -1,0 +1,18 @@
+[
+{"data":{"title":"bcdDevice"},"attr":{"id":"132798","ColType":"Number","ColValue":"257"}},
+{"data":{"title":"idProduct"},"attr":{"id":"132800","ColType":"Number","ColValue":"22580"}},
+{"data":{"title":"locationID"},"attr":{"id":"132802","ColType":"Number","ColValue":"346030080"}},
+{"data":{"title":"iInterface"},"attr":{"id":"132804","ColType":"Number","ColValue":"4"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"132806","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"132808","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"USB Interface Name"},"attr":{"id":"132810","ColType":"String","ColValue":"Broadcom USH w/touch sensor"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"132812","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClassNameOverride"},"attr":{"id":"132814","ColType":"String","ColValue":"IOUSBInterface"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"132816","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"132818","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idVendor"},"attr":{"id":"132820","ColType":"Number","ColValue":"2652"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"132822","ColType":"String","ColValue":"IOUSBInterfaceUserClientV3"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"132824","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"132826","ColType":"String","ColValue":"IOUSBFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"132828","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"132830","ColType":"Number","ColValue":"254"}}
+]

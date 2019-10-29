@@ -1,0 +1,8 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"3007","ColType":"Number","ColValue":"15"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"3009","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"3011","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"3013","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"3015","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"3017","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3018","ColType":"Data","ColValue":"&lt;2200000007000000&gt;"}}]},
+{"data":{"title":"name"},"attr":{"id":"3020","ColType":"Data","ColValue":"&lt;\"INT3446\"&gt;"}},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"3022","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3023","ColType":"String","ColValue":"io-apic-0"}}]},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"3025","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3026","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3027","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"3029","ColType":"Number","ColValue":"4261576704"}},{"data":{"title":"length"},"attr":{"id":"3031","ColType":"Number","ColValue":"4096"}}]}]}]}
+]

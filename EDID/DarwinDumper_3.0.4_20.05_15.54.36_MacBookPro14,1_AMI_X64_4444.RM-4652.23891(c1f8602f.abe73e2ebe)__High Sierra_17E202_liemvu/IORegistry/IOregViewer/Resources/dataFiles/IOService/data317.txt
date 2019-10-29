@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"78432","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"78434","ColType":"String","ColValue":"FakePCIID"}},
+{"data":{"title":"RM,Version"},"attr":{"id":"78436","ColType":"String","ColValue":"org.rehabman.driver.FakePCIID 1.3.9"}},
+{"data":{"title":"FakeProperties"},"attr":{"id":"78438","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"RM,device-id"},"attr":{"id":"78440","ColType":"Data","ColValue":"&lt;70a10000&gt;"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"78442","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"RM,Build"},"attr":{"id":"78444","ColType":"String","ColValue":"Release-rehabman"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"78446","ColType":"String","ColValue":"org.rehabman.driver.FakePCIID"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"78448","ColType":"String","ColValue":"org.rehabman.injector.FakePCIID-Intel-HDMI-Audio"}},
+{"data":{"title":"IOPCIPrimaryMatch"},"attr":{"id":"78450","ColType":"String","ColValue":"0x9d718086"}},
+{"data":{"title":"IOClass"},"attr":{"id":"78452","ColType":"String","ColValue":"FakePCIID"}}
+]

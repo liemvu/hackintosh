@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"132366","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"132368","ColType":"String","ColValue":"IOTimeSyncClockManager"}},
+{"data":{"title":"MachAbsoluteClockID"},"attr":{"id":"132370","ColType":"Number","ColValue":"4907983381797863424"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"132372","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"132374","ColType":"String","ColValue":"com.apple.iokit.IOTimeSyncFamily"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"132376","ColType":"String","ColValue":"IOTimeSyncClockManagerUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"132378","ColType":"String","ColValue":"IOTimeSyncClockManager"}},
+{"data":{"title":"MachAbsoluteCoreAudioClockDomain"},"attr":{"id":"132380","ColType":"Number","ColValue":"1667825664"}}
+]

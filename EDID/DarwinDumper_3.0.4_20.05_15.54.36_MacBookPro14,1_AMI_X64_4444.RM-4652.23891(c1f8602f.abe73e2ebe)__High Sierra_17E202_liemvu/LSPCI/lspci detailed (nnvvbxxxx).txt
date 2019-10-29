@@ -1,0 +1,666 @@
+00:00.0 Host bridge [0600]: Intel Corporation Device [8086:5904] (rev 02)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ >SERR- <PERR- INTx-
+	Latency: 0
+	Capabilities: [e0] Vendor Specific Information: Len=10 <?>
+00: 86 80 04 59 06 00 90 20 02 00 00 06 00 00 00 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 e0 00 00 00 00 00 00 00 00 00 00 00
+40: 01 90 d1 fe 00 00 00 00 01 00 d1 fe 00 00 00 00
+50: c1 01 00 00 b1 00 00 00 47 00 70 7f a7 00 00 7c
+60: 03 00 00 f0 00 00 00 00 01 80 d1 fe 00 00 00 00
+70: 00 00 00 fe 03 00 00 00 00 0c 00 fe 7f 00 00 00
+80: 10 11 11 11 11 11 11 00 1a 00 00 00 00 00 00 00
+90: 01 00 00 fe 03 00 00 00 01 00 70 7e 04 00 00 00
+a0: 01 00 00 00 04 00 00 00 01 00 80 7e 04 00 00 00
+b0: 01 00 80 7d 01 00 00 7d 01 00 00 7c 01 00 80 7f
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 09 00 10 01 21 60 61 7a dc 80 15 16 00 c0 06 00
+f0: 00 00 00 00 c8 0f 09 00 00 00 00 00 00 00 00 00
+
+00:04.0 Signal processing controller [1180]: Intel Corporation Skylake Processor Thermal Subsystem [8086:1903] (rev 02)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at 7f91020000 (64-bit, non-prefetchable) [disabled]
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: fee00000  Data: 4071
+	Capabilities: [d0] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+00: 86 80 03 19 00 00 90 00 02 00 80 11 00 00 00 00
+10: 04 00 02 91 7f 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 90 00 00 00 00 00 00 00 10 01 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 b1 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 05 d0 00 00 00 00 e0 fe 71 40 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 01 e0 03 00 08 00 00 00 00 00 00 00 00 00 00 00
+e0: 09 00 0c 01 21 60 61 7a dc 80 15 16 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:14.0 USB controller [0c03]: Intel Corporation Sunrise Point-LP USB 3.0 xHCI Controller [8086:9d2f] (rev 21) (prog-if 30 [XHCI])
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at 7f91010000 (64-bit, non-prefetchable)
+	Capabilities: [70] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0-,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [80] MSI: Enable+ Count=1/8 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4072
+00: 86 80 2f 9d 06 04 90 02 21 30 03 0c 00 00 80 00
+10: 04 00 01 91 7f 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 70 00 00 00 00 00 00 00 10 01 00 00
+40: fd 01 34 80 88 c6 0f 80 00 00 00 00 00 00 00 00
+50: 5b 6e ce 0f 00 00 00 00 00 00 00 00 00 00 00 00
+60: 30 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 01 80 c2 c1 08 00 00 00 00 00 00 00 00 00 00 00
+80: 05 00 87 00 00 00 e0 fe 00 00 00 00 72 40 00 00
+90: 09 00 14 f0 10 00 40 01 00 00 00 00 c1 0a 08 00
+a0: 00 08 00 00 00 18 00 00 8f 40 02 00 00 01 04 00
+b0: 33 00 00 00 0c 00 00 00 00 00 00 00 c0 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 33 00 00 00 0c 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:14.2 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Thermal subsystem [8086:9d31] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin C routed to IRQ 18
+	Region 0: Memory at 7f91030000 (64-bit, non-prefetchable)
+	Capabilities: [50] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: fee00000  Data: 4073
+00: 86 80 31 9d 02 00 10 00 21 00 80 11 00 00 00 00
+10: 04 00 03 91 7f 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 50 00 00 00 00 00 00 00 12 03 00 00
+40: 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 01 80 23 00 08 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 05 00 00 00 00 00 e0 fe 73 40 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:15.0 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Serial IO I2C Controller #0 [8086:9d60] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at 7f9102f000 (64-bit, non-prefetchable)
+	Capabilities: [80] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+00: 86 80 60 9d 06 00 10 00 21 00 80 11 00 00 80 00
+10: 04 f0 02 91 7f 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 80 00 00 00 00 00 00 00 10 01 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 01 90 03 00 08 00 00 00 00 00 00 00 00 00 00 00
+90: 09 00 14 f0 10 00 40 01 01 21 00 00 c1 24 00 00
+a0: 00 08 0f 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:15.1 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Serial IO I2C Controller #1 [8086:9d61] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin B routed to IRQ 17
+	Region 0: Memory at 7f9102e000 (64-bit, non-prefetchable)
+	Capabilities: [80] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+00: 86 80 61 9d 06 00 10 00 21 00 80 11 00 00 80 00
+10: 04 e0 02 91 7f 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 80 00 00 00 00 00 00 00 11 02 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 01 90 03 00 08 00 00 00 00 00 00 00 00 00 00 00
+90: 09 00 14 f0 10 00 40 01 01 21 00 00 c1 24 00 00
+a0: 00 08 0f 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:16.0 Communication controller [0780]: Intel Corporation Sunrise Point-LP CSME HECI #1 [8086:9d3a] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at 7f9102c000 (64-bit, non-prefetchable)
+	Capabilities: [50] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [8c] MSI: Enable+ Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4074
+00: 86 80 3a 9d 06 04 10 00 21 00 80 07 00 00 80 00
+10: 04 c0 02 91 7f 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 50 00 00 00 00 00 00 00 10 01 00 00
+40: 45 02 00 94 20 00 01 80 06 83 11 80 00 00 00 00
+50: 01 8c 03 40 08 00 00 00 00 00 00 00 00 00 00 00
+60: 30 00 00 00 00 40 08 00 01 1f 00 00 c9 0b c0 47
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 05 00 81 00
+90: 00 00 e0 fe 00 00 00 00 74 40 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 40
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:16.3 Serial controller [0700]: Intel Corporation Device [8086:9d3d] (rev 21) (prog-if 02 [16550])
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O+ Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin D routed to IRQ 19
+	Region 0: I/O ports at f0a0
+	Region 1: Memory at ec655000 (32-bit, non-prefetchable) [disabled]
+	Capabilities: [40] MSI: Enable- Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4075
+	Capabilities: [50] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+00: 86 80 3d 9d 01 00 b0 00 21 02 00 07 00 00 80 00
+10: a1 f0 00 00 00 50 65 ec 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 40 00 00 00 00 00 00 00 13 04 00 00
+40: 05 50 80 00 00 00 e0 fe 00 00 00 00 75 40 00 00
+50: 01 00 23 00 08 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:17.0 SATA controller [0106]: Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode] [8086:9d03] (rev 21) (prog-if 01 [AHCI 1.0])
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at ec650000 (32-bit, non-prefetchable)
+	Region 1: Memory at ec654000 (32-bit, non-prefetchable)
+	Region 2: I/O ports at f090
+	Region 3: I/O ports at f080
+	Region 4: I/O ports at f060
+	Region 5: Memory at ec653000 (32-bit, non-prefetchable)
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+		Address: fee00000  Data: 4076
+	Capabilities: [70] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [a8] SATA HBA v1.0 BAR4 Offset=00000004
+00: 86 80 03 9d 07 04 b0 02 21 01 06 01 00 00 00 00
+10: 00 00 65 ec 00 40 65 ec 91 f0 00 00 81 f0 00 00
+20: 61 f0 00 00 00 30 65 ec 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 80 00 00 00 00 00 00 00 10 01 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 01 a8 03 40 08 00 00 00 00 00 00 00 00 00 00 00
+80: 05 70 01 00 00 00 e0 fe 76 40 00 00 00 00 00 00
+90: 00 03 04 84 83 01 00 00 24 02 dc 20 30 00 00 80
+a0: a4 00 00 00 39 00 00 00 12 00 10 00 48 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 11 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:1c.0 PCI bridge [0604]: Intel Corporation Device [8086:9d10] (rev f1) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	Memory behind bridge: ec500000-ec5fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [40] Express (v2) Root Port (Slot+), MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 256 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #1, Speed 8GT/s, Width x1, ASPM L0s L1, Latency L0 <1us, L1 <16us
+			ClockPM- Surprise- LLActRep+ BwNot+
+		LnkCtl:	ASPM L0s L1 Enabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive+ BWMgmt+ ABWMgmt-
+		SltCap:	AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug- Surprise-
+			Slot #4, PowerLimit 10.000W; Interlock- NoCompl+
+		SltCtl:	Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+			Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+		SltSta:	Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet+ Interlock-
+			Changed: MRL- PresDet- LinkState+
+		RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+		RootCap: CRSVisible-
+		RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+		DevCap2: Completion Timeout: Range ABC, TimeoutDis+ ARIFwd+
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis- ARIFwd-
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -6dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: 00000000  Data: 0000
+	Capabilities: [90] Subsystem: Dell Device [1028:07a0]
+	Capabilities: [a0] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+00: 86 80 10 9d 07 00 10 00 f1 00 04 06 00 00 81 00
+10: 00 00 00 00 00 00 00 00 00 01 01 00 f0 00 00 20
+20: 50 ec 50 ec f1 ff 01 00 ff ff ff ff 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 10 01 12 00
+40: 10 80 42 01 01 80 00 00 20 00 10 00 13 4c 72 01
+50: 43 00 12 70 00 b2 24 00 00 00 40 01 00 00 00 00
+60: 00 00 00 00 37 08 00 00 00 04 00 00 0e 00 00 00
+70: 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 0d a0 00 00 28 10 a0 07 00 00 00 00 00 00 00 00
+a0: 01 00 03 c8 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 11 10 00 07 42 18 00 00 08 00 9e 8b 00 00 00 00
+e0: 00 f7 f3 00 00 00 00 00 06 80 12 00 00 00 00 00
+f0: 50 01 00 00 00 03 00 40 b3 0f 41 08 04 00 00 01
+
+00:1c.2 PCI bridge [0604]: Intel Corporation Device [8086:9d12] (rev f1) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	Memory behind bridge: ec000000-ec4fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [40] Express (v2) Root Port (Slot+), MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 256 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr+ UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #3, Speed 8GT/s, Width x1, ASPM L0s L1, Latency L0 <1us, L1 <16us
+			ClockPM- Surprise- LLActRep+ BwNot+
+		LnkCtl:	ASPM L0s L1 Enabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive+ BWMgmt+ ABWMgmt-
+		SltCap:	AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug- Surprise-
+			Slot #6, PowerLimit 10.000W; Interlock- NoCompl+
+		SltCtl:	Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+			Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+		SltSta:	Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet+ Interlock-
+			Changed: MRL- PresDet- LinkState+
+		RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+		RootCap: CRSVisible-
+		RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+		DevCap2: Completion Timeout: Range ABC, TimeoutDis+ ARIFwd+
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis- ARIFwd-
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: 00000000  Data: 0000
+	Capabilities: [90] Subsystem: Dell Device [1028:07a0]
+	Capabilities: [a0] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+00: 86 80 12 9d 07 00 10 00 f1 00 04 06 00 00 81 00
+10: 00 00 00 00 00 00 00 00 00 02 02 00 f0 00 00 20
+20: 00 ec 40 ec f1 ff 01 00 ff ff ff ff 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 12 03 12 00
+40: 10 80 42 01 01 80 00 00 20 00 11 00 13 4c 72 03
+50: 43 00 11 70 00 b2 34 00 00 00 40 01 00 00 00 00
+60: 00 00 00 00 37 08 00 00 00 04 00 00 0e 00 00 00
+70: 03 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 0d a0 00 00 28 10 a0 07 00 00 00 00 00 00 00 00
+a0: 01 00 03 c8 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 11 10 00 07 42 18 00 00 08 00 9e 8b 00 00 00 00
+e0: 00 03 63 00 3c 88 3c 88 16 00 10 00 00 00 00 00
+f0: 50 01 00 00 00 00 00 4c b3 0f 41 08 04 00 00 03
+
+00:1c.4 PCI bridge [0604]: Intel Corporation Sunrise Point-LP PCI Express Root Port #5 [8086:9d14] (rev f1) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Bus: primary=00, secondary=03, subordinate=3b, sec-latency=0
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR+ NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [40] Express (v2) Root Port (Slot+), MSI 00
+		DevCap:	MaxPayload 128 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 128 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #5, Speed 8GT/s, Width x4, ASPM unknown, Latency L0 unlimited, L1 <16us
+			ClockPM- Surprise- LLActRep+ BwNot+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk-
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x0, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		SltCap:	AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+
+			Slot #8, PowerLimit 25.000W; Interlock- NoCompl+
+		SltCtl:	Enable: AttnBtn- PwrFlt- MRL- PresDet+ CmdCplt- HPIrq- LinkChg-
+			Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+		SltSta:	Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet- Interlock-
+			Changed: MRL- PresDet- LinkState-
+		RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+		RootCap: CRSVisible-
+		RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+		DevCap2: Completion Timeout: Range ABC, TimeoutDis+ ARIFwd+
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis- ARIFwd-
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: 00000000  Data: 0000
+	Capabilities: [90] Subsystem: Dell Device [1028:07a0]
+	Capabilities: [a0] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+00: 86 80 14 9d 07 00 10 00 f1 00 04 06 00 00 81 00
+10: 00 00 00 00 00 00 00 00 00 03 3b 00 f0 00 00 20
+20: f0 ff 00 00 f1 ff 01 00 ff ff ff ff 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 10 01 12 00
+40: 10 80 42 01 00 80 00 00 00 00 10 00 43 70 72 05
+50: 00 00 01 10 60 fd 44 00 08 00 00 00 00 00 00 00
+60: 00 00 00 00 37 08 00 00 00 00 00 00 0e 00 00 00
+70: 03 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 0d a0 00 00 28 10 a0 07 00 00 00 00 00 00 00 00
+a0: 01 00 03 c8 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 01 10 00 07 42 18 00 00 0a 00 9e cb 00 00 00 00
+e0: 00 f7 73 00 00 00 00 00 06 80 12 00 00 00 00 00
+f0: 50 01 00 00 00 03 00 40 b3 0f 41 08 04 c0 00 01
+
+00:1f.0 ISA bridge [0601]: Intel Corporation Device [8086:9d4e] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+00: 86 80 4e 9d 07 04 00 00 21 00 01 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 1c 30 2c d4 00 e1 07 1c 00 01 09 7c 00
+90: 81 00 0c 00 10 2f 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 cf ff 00 00 a6 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:1f.2 Memory controller [0580]: Intel Corporation Sunrise Point-LP PMC [8086:9d21] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Region 0: Memory at ec64c000 (32-bit, non-prefetchable)
+00: 86 80 21 9d 06 00 00 00 21 00 80 05 00 00 80 00
+10: 00 c0 64 ec 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+40: 01 18 00 00 80 01 00 00 00 00 00 fe 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: f8 36 80 e0 49 18 07 00 00 46 00 00 00 00 00 81
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:1f.3 Audio device [0403]: Intel Corporation Device [8086:9d71] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 64
+	Interrupt: pin B routed to IRQ 17
+	Region 0: Memory at 7f91028000 (64-bit, non-prefetchable)
+	Region 4: Memory at 7f91000000 (64-bit, non-prefetchable)
+	Capabilities: [50] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=55mA PME(D0-,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [60] MSI: Enable+ Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4078
+00: 86 80 71 9d 06 04 10 00 21 00 03 04 00 40 00 00
+10: 04 80 02 91 7f 00 00 00 00 00 00 00 00 00 00 00
+20: 04 00 00 91 7f 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 50 00 00 00 00 00 00 00 11 02 00 00
+40: 00 00 00 00 1b 00 00 00 00 00 00 00 00 00 00 00
+50: 01 60 43 c0 08 00 00 00 00 00 00 00 00 00 00 00
+60: 05 00 81 00 00 00 e0 fe 00 00 00 00 78 40 00 00
+70: 10 00 91 00 00 00 00 10 00 28 10 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 08 06 02 00 00 70 80 84 00 0c a5 82 10 00 01 00
+d0: 00 0c b5 02 10 00 03 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:1f.4 SMBus [0c05]: Intel Corporation Sunrise Point-LP SMBus [8086:9d23] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at 7f91031000 (64-bit, non-prefetchable)
+	Region 4: I/O ports at f040
+00: 86 80 23 9d 03 00 80 02 21 00 05 0c 00 00 00 00
+10: 04 10 03 91 7f 00 00 00 00 00 00 00 00 00 00 00
+20: 41 f0 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 00 00 00 00 00 00 00 00 10 01 00 00
+40: 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 01 04 00 00 00 01 00 00 00 00 00 00 00 00 00 00
+60: 04 05 05 00 00 00 0a 0a 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 24 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 b3 0f 41 08 00 00 00 00
+
+00:1f.6 Ethernet controller [0200]: Intel Corporation Ethernet Connection (4) I219-LM [8086:15d7] (rev 21)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at ec600000 (32-bit, non-prefetchable)
+	Capabilities: [c8] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=1 PME-
+	Capabilities: [d0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4077
+	Capabilities: [e0] PCI Advanced Features
+		AFCap: TP+ FLR+
+		AFCtrl: FLR-
+		AFStatus: TP-
+00: 86 80 d7 15 06 04 10 00 21 00 00 02 00 00 00 00
+10: 00 00 60 ec 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 c8 00 00 00 00 00 00 00 10 01 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 28 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 1f 00 00 00 00 00 00 00 40 02 1b 40
+a0: 00 00 00 00 01 00 00 00 03 10 03 10 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 01 d0 23 c8 08 20 00 00
+d0: 05 e0 81 00 00 00 e0 fe 00 00 00 00 77 40 00 00
+e0: 13 00 06 03 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+01:00.0 Unassigned class [ff00]: Realtek Semiconductor Co., Ltd. RTS525A PCI Express Card Reader [10ec:525a] (rev 01)
+	Subsystem: Dell Device [1028:07a0]
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 16
+	Region 1: Memory at ec500000 (32-bit, non-prefetchable) [disabled]
+	Capabilities: [80] Power Management version 3
+		Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=375mA PME(D0-,D1+,D2+,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 407a
+	Capabilities: [b0] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 512 bytes, PhantFunc 0, Latency L0s unlimited, L1 unlimited
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr+ UncorrErr- FatalErr- UnsuppReq+ AuxPwr+ TransPend-
+		LnkCap:	Port #0, Speed 5GT/s, Width x1, ASPM L0s L1, Latency L0 unlimited, L1 <64us
+			ClockPM+ Surprise- LLActRep- BwNot-
+		LnkCtl:	ASPM L0s L1 Enabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM+ AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Not Supported, TimeoutDis+
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-
+		LnkCtl2: Target Link Speed: 5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -6dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+00: ec 10 5a 52 00 00 10 00 01 00 00 ff 00 00 00 00
+10: 00 00 00 00 00 00 50 ec 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 a0 07
+30: 00 00 00 00 80 00 00 00 00 00 00 00 10 01 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 01 90 c3 f7 00 00 00 00 00 00 00 00 00 00 00 00
+90: 05 b0 80 00 00 00 e0 fe 00 00 00 00 7a 40 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 10 00 02 00 c2 8f 90 05 30 20 19 00 12 7c 47 00
+c0: 43 01 12 10 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 10 08 0c 00 00 04 00 00 06 00 00 00
+e0: 02 00 00 00 00 00 00 00 00 00 00 00 0f ff 3b 3e
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+02:00.0 Network controller [0280]: Broadcom Limited BCM43602 802.11ac Wireless LAN SoC [14e4:43ba] (rev 01)
+	Subsystem: Dell Device [1028:0024]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 18
+	Region 0: Memory at ec400000 (64-bit, non-prefetchable)
+	Region 2: Memory at ec000000 (64-bit, non-prefetchable)
+	Capabilities: [48] Power Management version 3
+		Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=0mA PME(D0+,D1+,D2+,D3hot+,D3cold+)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=2 PME-
+	Capabilities: [58] MSI: Enable+ Count=1/16 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4079
+	Capabilities: [68] Vendor Specific Information: Len=44 <?>
+	Capabilities: [ac] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <4us, L1 unlimited
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable+ Non-Fatal+ Fatal+ Unsupported+
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr+ NoSnoop+
+			MaxPayload 256 bytes, MaxReadReq 1024 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #0, Speed 2.5GT/s, Width x1, ASPM L0s L1, Latency L0 <2us, L1 <32us
+			ClockPM+ Surprise- LLActRep- BwNot-
+		LnkCtl:	ASPM L0s L1 Enabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM+ AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-
+		LnkCtl2: Target Link Speed: 2.5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+00: e4 14 ba 43 06 04 10 00 01 00 80 02 00 00 00 00
+10: 04 00 40 ec 00 00 00 00 04 00 00 ec 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 28 10 24 00
+30: 00 00 00 00 48 00 00 00 00 00 00 00 12 01 00 00
+40: 00 00 00 00 00 00 00 00 01 58 03 fe 08 40 00 00
+50: 00 00 00 00 00 00 00 00 05 68 89 00 00 00 e0 fe
+60: 00 00 00 00 79 40 00 00 09 ac 44 00 09 01 00 00
+70: 00 10 10 18 00 00 00 00 00 c0 10 18 00 00 00 00
+80: 00 10 00 18 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 02 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 40 00 07 00 10 00 02 00
+b0: 81 8f 90 05 3f 3c 10 00 11 dc 46 00 43 01 11 10
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 1f 08 08 00 00 04 00 00 00 00 00 00 01 00 01 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+

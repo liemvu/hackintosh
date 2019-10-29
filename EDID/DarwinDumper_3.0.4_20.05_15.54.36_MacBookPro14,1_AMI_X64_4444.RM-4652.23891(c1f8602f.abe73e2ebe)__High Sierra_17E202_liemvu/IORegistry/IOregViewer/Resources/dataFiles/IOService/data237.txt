@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"32681","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"32683","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"32685","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"32687","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"32689","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"32691","ColType":"String","ColValue":"IOService"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"32693","ColType":"String","ColValue":"pci8086,9d61"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"32695","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"32697","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"32698","ColType":"String","ColValue":"pci8086,9d60"}},{"data":{"title":"1"},"attr":{"id":"32699","ColType":"String","ColValue":"pci8086,9d61"}},{"data":{"title":"2"},"attr":{"id":"32700","ColType":"String","ColValue":"pci8086,a160"}},{"data":{"title":"3"},"attr":{"id":"32701","ColType":"String","ColValue":"pci8086,a161"}},{"data":{"title":"4"},"attr":{"id":"32702","ColType":"String","ColValue":"pci8086,a162"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"32704","ColType":"Number","ColValue":"9999"}},
+{"data":{"title":"VoodooI2CServices Supported"},"attr":{"id":"32706","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"32708","ColType":"String","ColValue":"com.alexandred.VoodooI2C"}},
+{"data":{"title":"IOClass"},"attr":{"id":"32710","ColType":"String","ColValue":"VoodooI2CPCIController"}}
+]

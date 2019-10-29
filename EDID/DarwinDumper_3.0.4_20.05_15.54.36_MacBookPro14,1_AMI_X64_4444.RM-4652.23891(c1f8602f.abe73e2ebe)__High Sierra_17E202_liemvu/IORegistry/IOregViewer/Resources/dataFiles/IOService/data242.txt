@@ -1,0 +1,15 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"56491","ColType":"Number","ColValue":"4619"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"56493","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"56495","ColType":"Data","ColValue":"&lt;05010902a10185010901a100050919012903150025017501950381027505950181030501093009311581257f750895028106a102093895018106c0a102050c0a38028106c0c0c005010906a1018502050719e029e7150025017501950881027508950181010507190029731500267300750895068100c00601ff0901a10185030901150026ff00951b81028504090295508102850509039507b102850609048102c00602ff0901a101850709059586b102c0&gt;"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"56497","ColType":"Number","ColValue":"291"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"56499","ColType":"Number","ColValue":"81"}},
+{"data":{"title":"VendorID"},"attr":{"id":"56501","ColType":"Number","ColValue":"1102"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"56503","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"56505","ColType":"Number","ColValue":"135"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"56507","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"56509","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"56510","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"56512","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"56514","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"56515","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"56517","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"56519","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"2"},"attr":{"id":"56520","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"56522","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"56524","ColType":"Number","ColValue":"6"}}]},{"data":{"title":"3"},"attr":{"id":"56525","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"56527","ColType":"Number","ColValue":"65281"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"56529","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"4"},"attr":{"id":"56530","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"56532","ColType":"Number","ColValue":"65282"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"56534","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"Manufacturer"},"attr":{"id":"56536","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"56538","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Transport"},"attr":{"id":"56540","ColType":"String","ColValue":"I2C"}}
+]

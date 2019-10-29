@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"230103","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"230105","ColType":"String","ColValue":"org_pqrs_driver_Karabiner_VirtualHIDDevice_VirtualHIDRoot_v060600"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"230107","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"230109","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"230111","ColType":"String","ColValue":"org.pqrs.driver.Karabiner.VirtualHIDDevice.v060600"}},
+{"data":{"title":"IOKitDebug"},"attr":{"id":"230113","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"230115","ColType":"String","ColValue":"org_pqrs_driver_Karabiner_VirtualHIDDevice_VirtualHIDRoot_UserClient_v060600"}},
+{"data":{"title":"IOClass"},"attr":{"id":"230117","ColType":"String","ColValue":"org_pqrs_driver_Karabiner_VirtualHIDDevice_VirtualHIDRoot_v060600"}}
+]

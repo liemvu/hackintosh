@@ -1,0 +1,4 @@
+[
+{"data":{"title":"IOClass"},"attr":{"id":"75245","ColType":"String","ColValue":"CCCapture"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"75247","ColType":"String","ColValue":"IOCommand is not serializable"}}
+]

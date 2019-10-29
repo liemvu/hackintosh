@@ -1,0 +1,14 @@
+[
+{"data":{"title":"MouseNameMatch"},"attr":{"id":"79571","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"79572","ColType":"String","ColValue":"PNP0F03"}},{"data":{"title":"1"},"attr":{"id":"79573","ColType":"String","ColValue":"PNP0F0B"}},{"data":{"title":"2"},"attr":{"id":"79574","ColType":"String","ColValue":"PNP0F0E"}},{"data":{"title":"3"},"attr":{"id":"79575","ColType":"String","ColValue":"PNP0F13"}}]},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"79577","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"79578","ColType":"String","ColValue":"io-apic-0"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"79580","ColType":"String","ColValue":"org.rehabman.voodoo.driver.PS2Controller"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"79582","ColType":"String","ColValue":"PNP0303"}},
+{"data":{"title":"IOClass"},"attr":{"id":"79584","ColType":"String","ColValue":"AppleACPIPS2Nub"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"79586","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"79588","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"79589","ColType":"Data","ColValue":"&lt;0100000000000000&gt;"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"79591","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"79593","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"79594","ColType":"String","ColValue":"PNP0303"}},{"data":{"title":"1"},"attr":{"id":"79595","ColType":"String","ColValue":"PNP030B"}},{"data":{"title":"2"},"attr":{"id":"79596","ColType":"String","ColValue":"PNP0320"}}]},
+{"data":{"title":"FindMouseDelay"},"attr":{"id":"79598","ColType":"Number","ColValue":"100"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"79600","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"79602","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"79604","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"79606","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"79608","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"79610","ColType":"String","ColValue":"IOACPIPlatformDevice"}}
+]

@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"132298","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"132300","ColType":"String","ColValue":"Lilu"}},
+{"data":{"title":"VersionInfo"},"attr":{"id":"132302","ColType":"String","ColValue":"REL-123-2018-04-07"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"132304","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"132306","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"132308","ColType":"String","ColValue":"as.vit9696.Lilu"}},
+{"data":{"title":"IOClass"},"attr":{"id":"132310","ColType":"String","ColValue":"Lilu"}}
+]

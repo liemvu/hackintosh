@@ -1,0 +1,187 @@
+10:086  0:097  Found BIOS RSDP at F0140
+10:086  0:000  Printing ACPI tables from RSDP F0140 ...
+10:086  0:000   F0140: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:086  0:000    (Xsdt: 7B5AC188, Rsdt: 7B5AC0C4)
+10:086  0:000    7B5AC188: 'XSDT', 'TP-N24', Rev: 1, Len: 276
+10:086  0:000    7B5AC0C4: 'RSDT', 'TP-N24', Rev: 1, Len: 156
+10:086  0:000    Tables in Xsdt: 30
+10:086  0:000    0. 7B5E1000: 'FACP', 'TP-N24', Rev: 5, Len: 244
+10:086  0:000        (Dsdt: 7B5BA000, Facs: 7B53D000, XDsdt: 7B5BA000, XFacs: 0)
+10:086  0:000        7B5BA000: 'DSDT', 'SKL', Rev: 2, Len: 139352
+10:091  0:005        7B53D000: 'FACS', Ver: 2, Len: 64
+10:091  0:000    1. 7B5E9000: 'SSDT', 'DptfTabl', Rev: 2, Len: 78529
+10:091  0:000    2. 7B5E8000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+10:091  0:000    3. 7B5E7000: 'TPM2', 'TP-N24', Rev: 3, Len: 52
+10:091  0:000    4. 7B553000: 'UEFI', 'TP-N24', Rev: 1, Len: 66
+10:091  0:000    5. 7B5E3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+10:091  0:000    6. 7B5E2000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+10:091  0:000    7. 7B5E0000: 'HPET', 'TP-N24', Rev: 1, Len: 56
+10:091  0:000    8. 7B5DF000: 'APIC', 'TP-N24', Rev: 3, Len: 300
+10:091  0:000    9. 7B5DE000: 'MCFG', 'TP-N24', Rev: 1, Len: 60
+10:091  0:000    10. 7B5DD000: 'ECDT', 'TP-N24', Rev: 1, Len: 83
+10:091  0:000    11. 7B5B8000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7324
+10:091  0:000    12. 7B5B7000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+10:091  0:000    13. 7B5B5000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+10:091  0:000    14. 7B5B4000: 'BOOT', 'TP-N24', Rev: 1, Len: 40
+10:091  0:000    15. 7B5B3000: 'BATB', 'TP-N24', Rev: 2, Len: 74
+10:091  0:000    16. 7B5B1000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:091  0:000    17. 7B5B0000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+10:091  0:000    18. 7B5AF000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+10:091  0:000    19. 7B5AE000: 'LPIT', 'TP-N24', Rev: 1, Len: 148
+10:091  0:000    20. 7B5AD000: 'WSMT', 'TP-N24', Rev: 1, Len: 40
+10:091  0:000    21. 7B5FD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 472
+10:091  0:000    22. 7B5AB000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1276
+10:091  0:000    23. 7B5AA000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+10:091  0:000    24. 7B5A9000: 'DBGP', 'TP-N24', Rev: 1, Len: 52
+10:091  0:000    25. 7B5A8000: 'DBG2', 'TP-N24', Rev: 0, Len: 84
+10:091  0:000    26. 7B5A7000: 'POAT', 'TP-N24', Rev: 3, Len: 85
+10:091  0:000    27. 7B5A6000: 'ASF!', 'TP-N24', Rev: 32, Len: 160
+10:091  0:000    28. 7B5A5000: 'FPDT', 'TP-N24', Rev: 1, Len: 68
+10:091  0:000    29. 7B53A000: 'UEFI', 'TP-N24', Rev: 1, Len: 318
+10:091  0:000    Tables in Rsdt: 30
+10:091  0:000    0. 7B5E1000: 'FACP', 'TP-N24', Rev: 5, Len: 244
+10:091  0:000        (Dsdt: 7B5BA000, Facs: 7B53D000, XDsdt: 7B5BA000, XFacs: 0)
+10:091  0:000        7B5BA000: 'DSDT', 'SKL', Rev: 2, Len: 139352
+10:096  0:004        7B53D000: 'FACS', Ver: 2, Len: 64
+10:096  0:000    1. 7B5E9000: 'SSDT', 'DptfTabl', Rev: 2, Len: 78529
+10:096  0:000    2. 7B5E8000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+10:096  0:000    3. 7B5E7000: 'TPM2', 'TP-N24', Rev: 3, Len: 52
+10:096  0:000    4. 7B553000: 'UEFI', 'TP-N24', Rev: 1, Len: 66
+10:096  0:000    5. 7B5E3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+10:096  0:000    6. 7B5E2000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+10:096  0:000    7. 7B5E0000: 'HPET', 'TP-N24', Rev: 1, Len: 56
+10:096  0:000    8. 7B5DF000: 'APIC', 'TP-N24', Rev: 3, Len: 300
+10:096  0:000    9. 7B5DE000: 'MCFG', 'TP-N24', Rev: 1, Len: 60
+10:096  0:000    10. 7B5DD000: 'ECDT', 'TP-N24', Rev: 1, Len: 83
+10:096  0:000    11. 7B5B8000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7324
+10:096  0:000    12. 7B5B7000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+10:096  0:000    13. 7B5B5000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+10:096  0:000    14. 7B5B4000: 'BOOT', 'TP-N24', Rev: 1, Len: 40
+10:096  0:000    15. 7B5B3000: 'BATB', 'TP-N24', Rev: 2, Len: 74
+10:096  0:000    16. 7B5B1000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:096  0:000    17. 7B5B0000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+10:096  0:000    18. 7B5AF000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+10:096  0:000    19. 7B5AE000: 'LPIT', 'TP-N24', Rev: 1, Len: 148
+10:096  0:000    20. 7B5AD000: 'WSMT', 'TP-N24', Rev: 1, Len: 40
+10:096  0:000    21. 7B5FD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 472
+10:096  0:000    22. 7B5AB000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1276
+10:096  0:000    23. 7B5AA000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+10:096  0:000    24. 7B5A9000: 'DBGP', 'TP-N24', Rev: 1, Len: 52
+10:096  0:000    25. 7B5A8000: 'DBG2', 'TP-N24', Rev: 0, Len: 84
+10:096  0:000    26. 7B5A7000: 'POAT', 'TP-N24', Rev: 3, Len: 85
+10:096  0:000    27. 7B5A6000: 'ASF!', 'TP-N24', Rev: 32, Len: 160
+10:096  0:000    28. 7B5A5000: 'FPDT', 'TP-N24', Rev: 1, Len: 68
+10:096  0:000    29. 7B53A000: 'UEFI', 'TP-N24', Rev: 1, Len: 318
+10:096  0:000  Found UEFI Acpi 2.0 RSDP at 7B5FE014
+10:096  0:000  Saving ACPI tables from RSDP 7B5FE014 to EFI\CLOVER\ACPI\origin ...
+10:096  0:000   7B5FE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:096  0:000    (Xsdt: 7B5AC188, Rsdt: 7B5AC0C4)
+10:096  0:000    7B5AC188: 'XSDT', 'TP-N24', Rev: 1, Len: 276
+10:096  0:000    7B5AC0C4: 'RSDT', 'TP-N24', Rev: 1, Len: 156
+10:096  0:000    Tables in Xsdt: 30
+10:096  0:000    0. 7B5E1000: 'FACP', 'TP-N24', Rev: 5, Len: 244
+10:096  0:000        (Dsdt: 7B5BA000, Facs: 7B53D000, XDsdt: 7B5BA000, XFacs: 0)
+10:096  0:000        7B5BA000: 'DSDT', 'SKL', Rev: 2, Len: 139352
+10:101  0:005        7B53D000: 'FACS', Ver: 2, Len: 64
+10:101  0:000    1. 7B5E9000: 'SSDT', 'DptfTabl', Rev: 2, Len: 78529
+10:101  0:000    2. 7B5E8000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+10:101  0:000    3. 7B5E7000: 'TPM2', 'TP-N24', Rev: 3, Len: 52
+10:101  0:000    4. 7B553000: 'UEFI', 'TP-N24', Rev: 1, Len: 66
+10:101  0:000    5. 7B5E3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+10:101  0:000    6. 7B5E2000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+10:101  0:000    7. 7B5E0000: 'HPET', 'TP-N24', Rev: 1, Len: 56
+10:101  0:000    8. 7B5DF000: 'APIC', 'TP-N24', Rev: 3, Len: 300
+10:101  0:000    9. 7B5DE000: 'MCFG', 'TP-N24', Rev: 1, Len: 60
+10:101  0:000    10. 7B5DD000: 'ECDT', 'TP-N24', Rev: 1, Len: 83
+10:101  0:000    11. 7B5B8000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7324
+10:101  0:000    12. 7B5B7000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+10:101  0:000    13. 7B5B5000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+10:101  0:000    14. 7B5B4000: 'BOOT', 'TP-N24', Rev: 1, Len: 40
+10:101  0:000    15. 7B5B3000: 'BATB', 'TP-N24', Rev: 2, Len: 74
+10:101  0:000    16. 7B5B1000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:101  0:000    17. 7B5B0000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+10:101  0:000    18. 7B5AF000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+10:101  0:000    19. 7B5AE000: 'LPIT', 'TP-N24', Rev: 1, Len: 148
+10:101  0:000    20. 7B5AD000: 'WSMT', 'TP-N24', Rev: 1, Len: 40
+10:101  0:000    21. 7B5FD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 472
+10:101  0:000    22. 7B5AB000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1276
+10:101  0:000    23. 7B5AA000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+10:101  0:000    24. 7B5A9000: 'DBGP', 'TP-N24', Rev: 1, Len: 52
+10:101  0:000    25. 7B5A8000: 'DBG2', 'TP-N24', Rev: 0, Len: 84
+10:101  0:000    26. 7B5A7000: 'POAT', 'TP-N24', Rev: 3, Len: 85
+10:101  0:000    27. 7B5A6000: 'ASF!', 'TP-N24', Rev: 32, Len: 160
+10:101  0:000    28. 7B5A5000: 'FPDT', 'TP-N24', Rev: 1, Len: 68
+10:101  0:000    29. 7B53A000: 'UEFI', 'TP-N24', Rev: 1, Len: 318
+10:101  0:000    Tables in Rsdt: 30
+10:101  0:000    0. 7B5E1000: 'FACP', 'TP-N24', Rev: 5, Len: 244
+10:101  0:000        (Dsdt: 7B5BA000, Facs: 7B53D000, XDsdt: 7B5BA000, XFacs: 0)
+10:101  0:000        7B5BA000: 'DSDT', 'SKL', Rev: 2, Len: 139352
+10:106  0:005        7B53D000: 'FACS', Ver: 2, Len: 64
+10:106  0:000    1. 7B5E9000: 'SSDT', 'DptfTabl', Rev: 2, Len: 78529
+10:106  0:000    2. 7B5E8000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+10:106  0:000    3. 7B5E7000: 'TPM2', 'TP-N24', Rev: 3, Len: 52
+10:106  0:000    4. 7B553000: 'UEFI', 'TP-N24', Rev: 1, Len: 66
+10:106  0:000    5. 7B5E3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+10:106  0:000    6. 7B5E2000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+10:106  0:000    7. 7B5E0000: 'HPET', 'TP-N24', Rev: 1, Len: 56
+10:106  0:000    8. 7B5DF000: 'APIC', 'TP-N24', Rev: 3, Len: 300
+10:106  0:000    9. 7B5DE000: 'MCFG', 'TP-N24', Rev: 1, Len: 60
+10:106  0:000    10. 7B5DD000: 'ECDT', 'TP-N24', Rev: 1, Len: 83
+10:106  0:000    11. 7B5B8000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7324
+10:106  0:000    12. 7B5B7000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+10:106  0:000    13. 7B5B5000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+10:106  0:000    14. 7B5B4000: 'BOOT', 'TP-N24', Rev: 1, Len: 40
+10:106  0:000    15. 7B5B3000: 'BATB', 'TP-N24', Rev: 2, Len: 74
+10:106  0:000    16. 7B5B1000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:106  0:000    17. 7B5B0000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+10:106  0:000    18. 7B5AF000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+10:106  0:000    19. 7B5AE000: 'LPIT', 'TP-N24', Rev: 1, Len: 148
+10:106  0:000    20. 7B5AD000: 'WSMT', 'TP-N24', Rev: 1, Len: 40
+10:106  0:000    21. 7B5FD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 472
+10:106  0:000    22. 7B5AB000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1276
+10:106  0:000    23. 7B5AA000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+10:106  0:000    24. 7B5A9000: 'DBGP', 'TP-N24', Rev: 1, Len: 52
+10:106  0:000    25. 7B5A8000: 'DBG2', 'TP-N24', Rev: 0, Len: 84
+10:106  0:000    26. 7B5A7000: 'POAT', 'TP-N24', Rev: 3, Len: 85
+10:106  0:000    27. 7B5A6000: 'ASF!', 'TP-N24', Rev: 32, Len: 160
+10:106  0:000    28. 7B5A5000: 'FPDT', 'TP-N24', Rev: 1, Len: 68
+10:106  0:000    29. 7B53A000: 'UEFI', 'TP-N24', Rev: 1, Len: 318
+10:106  0:000  Found UEFI Acpi 1.0 RSDP at 7B5FE000
+10:106  0:000  Printing ACPI tables from RSDP 7B5FE000 ...
+10:106  0:000   7B5FE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+10:106  0:000    (Rsdt: 7B5AC000)
+10:106  0:000    7B5AC000: 'RSDT', 'TP-N24', Rev: 1, Len: 156
+10:106  0:000    Tables in Rsdt: 30
+10:106  0:000    0. 7B5E1000: 'FACP', 'TP-N24', Rev: 5, Len: 244
+10:106  0:000        (Dsdt: 7B5BA000, Facs: 7B53D000, XDsdt: 7B5BA000, XFacs: 0)
+10:106  0:000        7B5BA000: 'DSDT', 'SKL', Rev: 2, Len: 139352
+10:111  0:005        7B53D000: 'FACS', Ver: 2, Len: 64
+10:111  0:000    1. 7B5E9000: 'SSDT', 'DptfTabl', Rev: 2, Len: 78529
+10:111  0:000    2. 7B5E8000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+10:111  0:000    3. 7B5E7000: 'TPM2', 'TP-N24', Rev: 3, Len: 52
+10:111  0:000    4. 7B553000: 'UEFI', 'TP-N24', Rev: 1, Len: 66
+10:111  0:000    5. 7B5E3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+10:111  0:000    6. 7B5E2000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+10:111  0:000    7. 7B5E0000: 'HPET', 'TP-N24', Rev: 1, Len: 56
+10:111  0:000    8. 7B5DF000: 'APIC', 'TP-N24', Rev: 3, Len: 300
+10:111  0:000    9. 7B5DE000: 'MCFG', 'TP-N24', Rev: 1, Len: 60
+10:111  0:000    10. 7B5DD000: 'ECDT', 'TP-N24', Rev: 1, Len: 83
+10:111  0:000    11. 7B5B8000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7324
+10:111  0:000    12. 7B5B7000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 540
+10:111  0:000    13. 7B5B5000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+10:111  0:000    14. 7B5B4000: 'BOOT', 'TP-N24', Rev: 1, Len: 40
+10:111  0:000    15. 7B5B3000: 'BATB', 'TP-N24', Rev: 2, Len: 74
+10:111  0:000    16. 7B5B1000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:111  0:000    17. 7B5B0000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+10:111  0:000    18. 7B5AF000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+10:111  0:000    19. 7B5AE000: 'LPIT', 'TP-N24', Rev: 1, Len: 148
+10:111  0:000    20. 7B5AD000: 'WSMT', 'TP-N24', Rev: 1, Len: 40
+10:111  0:000    21. 7B5FD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 472
+10:111  0:000    22. 7B5AB000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1276
+10:111  0:000    23. 7B5AA000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+10:111  0:000    24. 7B5A9000: 'DBGP', 'TP-N24', Rev: 1, Len: 52
+10:111  0:000    25. 7B5A8000: 'DBG2', 'TP-N24', Rev: 0, Len: 84
+10:111  0:000    26. 7B5A7000: 'POAT', 'TP-N24', Rev: 3, Len: 85
+10:111  0:000    27. 7B5A6000: 'ASF!', 'TP-N24', Rev: 32, Len: 160
+10:111  0:000    28. 7B5A5000: 'FPDT', 'TP-N24', Rev: 1, Len: 68
+10:111  0:000    29. 7B53A000: 'UEFI', 'TP-N24', Rev: 1, Len: 318

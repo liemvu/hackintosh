@@ -1,0 +1,20 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"224544","ColType":"Number","ColValue":"50475"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"224546","ColType":"Number","ColValue":"2000"}},
+{"data":{"title":"Transport"},"attr":{"id":"224548","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"224550","ColType":"Number","ColValue":"4611"}},
+{"data":{"title":"VendorID"},"attr":{"id":"224552","ColType":"Number","ColValue":"1133"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"224554","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"224556","ColType":"Number","ColValue":"65280"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"224558","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"224560","ColType":"Data","ColValue":"&lt;0600ff0901a101851095067508150026ff000901810009019100c00600ff0902a101851195137508150026ff000902810009029100c00600ff0904a1018520950e7508150026ff0009418100094191008521951f0942810009429100c0&gt;"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"224562","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"224564","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"224566","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"224567","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"224569","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"224571","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"1"},"attr":{"id":"224572","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"224574","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"224576","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"2"},"attr":{"id":"224577","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"224579","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"224581","ColType":"Number","ColValue":"4"}}]}]},
+{"data":{"title":"BootProtocol"},"attr":{"id":"224583","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"224585","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"224587","ColType":"String","ColValue":"Logitech"}},
+{"data":{"title":"Product"},"attr":{"id":"224589","ColType":"String","ColValue":"USB Receiver"}},
+{"data":{"title":"LocationID"},"attr":{"id":"224591","ColType":"Number","ColValue":"336592896"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"224593","ColType":"Number","ColValue":"0"}}
+]

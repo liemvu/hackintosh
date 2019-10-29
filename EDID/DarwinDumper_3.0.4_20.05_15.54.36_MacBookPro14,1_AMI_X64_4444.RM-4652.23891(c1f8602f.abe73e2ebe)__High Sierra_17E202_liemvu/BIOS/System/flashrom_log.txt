@@ -1,0 +1,30 @@
+flashrom v0.9.7-unknown on Darwin 17.5.0 (x86_64)
+flashrom was built with libpci 3.1.9, GCC 4.2.1 (Apple Inc. build 5666) (dot 3), little endian
+Command line (6 args): /private/var/folders/t0/xmy7fmr1029ccmfb128t081c0000gn/T/AppTranslocation/E94798E6-3F76-4684-9B1D-488CAC4F646C/d/DarwinDumper.app/Contents/Resources/public/Tools/flashrom -p internal -r /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/BIOS/System/biosbackup.rom -o /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/BIOS/System/flashrom_log.txt
+Calibrating delay loop... OS timer resolution is 1 usecs, 3035M loops per second, delay more than 10% too short (got 78% of expected delay), recalculating... 2999M loops per second, 10 myus = 8 us, 100 myus = 77 us, 1000 myus = 771 us, 10000 myus = 9545 us, 4 myus = 3 us, OK.
+Initializing internal programmer
+No coreboot table found.
+Using Internal DMI decoder.
+DMI string chassis-type: "Notebook"
+Laptop detected via DMI.
+DMI string system-manufacturer: "Dell Inc."
+DMI string system-product-name: "Latitude 7480"
+DMI string system-version: "Not Specified"
+DMI string baseboard-manufacturer: "Dell Inc."
+DMI string baseboard-product-name: "      "
+DMI string baseboard-version: "   "
+========================================================================
+WARNING! You seem to be running flashrom on an unsupported laptop.
+Laptops, notebooks and netbooks are difficult to support and we
+recommend to use the vendor flashing utility. The embedded controller
+(EC) in these machines often interacts badly with flashing.
+See the manpage and http://www.flashrom.org/Laptops for details.
+
+If flash is shared with the EC, erase is guaranteed to brick your laptop
+and write may brick your laptop.
+Read and probe may irritate your EC and cause fan failure, backlight
+failure and sudden poweroff.
+You have been warned.
+========================================================================
+Aborting.
+Error: Programmer initialization failed.

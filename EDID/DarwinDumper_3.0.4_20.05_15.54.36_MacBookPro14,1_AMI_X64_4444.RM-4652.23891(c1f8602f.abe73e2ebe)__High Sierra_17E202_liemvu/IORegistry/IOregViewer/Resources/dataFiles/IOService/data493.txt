@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"224981","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"224983","ColType":"String","ColValue":"com_intel_driver_EnergyDriver"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"224985","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"224987","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"224989","ColType":"String","ColValue":"com.intel.driver.EnergyDriver"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"224991","ColType":"String","ColValue":"com_intel_driver_EnergyDriverClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"224993","ColType":"String","ColValue":"com_intel_driver_EnergyDriver"}}
+]

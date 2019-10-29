@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOMinimumSegmentAlignmentByteCount"},"attr":{"id":"68119","ColType":"Number","ColValue":"4"}},
+{"data":{"title":"Protocol Characteristics"},"attr":{"id":"68121","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"68123","ColType":"String","ColValue":"Internal"}},{"data":{"title":"Physical Interconnect"},"attr":{"id":"68125","ColType":"String","ColValue":"SATA"}}]},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"68127","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"24514B7A-2804-11D6-8A02-003065704866"},"attr":{"id":"68129","ColType":"String","ColValue":"SMARTLib.plugin"}}]},
+{"data":{"title":"Device Characteristics"},"attr":{"id":"68131","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Block Size"},"attr":{"id":"68133","ColType":"Number","ColValue":"4096"}},{"data":{"title":"SATA Features"},"attr":{"id":"68135","ColType":"Number","ColValue":"63"}},{"data":{"title":"Product Name"},"attr":{"id":"68137","ColType":"String","ColValue":"MTFDDAV512MBF-1AN15ABHA                 "}},{"data":{"title":"Product Revision Level"},"attr":{"id":"68139","ColType":"String","ColValue":"M6T3    "}},{"data":{"title":"Logical Block Size"},"attr":{"id":"68141","ColType":"Number","ColValue":"512"}},{"data":{"title":"Medium Type"},"attr":{"id":"68143","ColType":"String","ColValue":"Solid State"}},{"data":{"title":"Serial Number"},"attr":{"id":"68145","ColType":"String","ColValue":"        170515A70564"}}]},
+{"data":{"title":"IOStorageFeatures"},"attr":{"id":"68147","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Unmap"},"attr":{"id":"68149","ColType":"Boolean","ColValue":"Yes"}}]},
+{"data":{"title":"SMART Capable"},"attr":{"id":"68151","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"device-type"},"attr":{"id":"68153","ColType":"String","ColValue":"Generic"}}
+]

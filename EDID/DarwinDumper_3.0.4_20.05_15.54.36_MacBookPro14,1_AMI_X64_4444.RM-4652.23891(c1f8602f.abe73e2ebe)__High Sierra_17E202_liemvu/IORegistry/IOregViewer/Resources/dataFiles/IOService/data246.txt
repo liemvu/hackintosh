@@ -1,0 +1,4 @@
+[
+{"data":{"title":"IOUserClientCreator"},"attr":{"id":"67528","ColType":"String","ColValue":"pid 49, karabiner_grabbe"}},
+{"data":{"title":"DebugState"},"attr":{"id":"67530","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"EventQueueMap"},"attr":{"id":"67532","ColType":"Array","ColValue":"0_values"},"children":[]}]}
+]

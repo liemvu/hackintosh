@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"130692","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"130694","ColType":"String","ColValue":"FakeSMCPlugin"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"130696","ColType":"String","ColValue":"PTID"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"130698","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"130699","ColType":"String","ColValue":"PTID"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"130701","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"Platform Profile"},"attr":{"id":"130703","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Default"},"attr":{"id":"130705","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DisableDevice"},"attr":{"id":"130707","ColType":"Boolean","ColValue":"No"}}]},{"data":{"title":"HP"},"attr":{"id":"130709","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Default"},"attr":{"id":"130711","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DisableDevice"},"attr":{"id":"130713","ColType":"Boolean","ColValue":"Yes"}}]}]}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"130715","ColType":"String","ColValue":"org.hwsensors.driver.ACPISensors"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"130717","ColType":"String","ColValue":"FakeSMCKeyStore"}},
+{"data":{"title":"IOClass"},"attr":{"id":"130719","ColType":"String","ColValue":"PTIDSensors"}},
+{"data":{"title":"version"},"attr":{"id":"130721","ColType":"Number","ColValue":"196608"}}
+]

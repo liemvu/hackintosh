@@ -1,0 +1,47 @@
+Extracted contents:
+header:          00 ff ff ff ff ff ff 00
+serial number:   06 af 3d 33 00 00 00 00 00 1a
+version:         01 04
+basic params:    95 1f 11 78 02
+chroma info:     8d 15 a1 56 52 9d 28 0a 50 54
+established:     00 00 00
+standard:        01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+descriptor 1:    14 37 80 b8 70 38 24 40 10 10 3e 00 35 ae 10 00 00 1a
+descriptor 2:    10 2c 80 b8 70 38 24 40 10 10 3e 00 35 ae 10 00 00 1a
+descriptor 3:    00 00 00 fe 00 4b 57 38 54 34 80 42 31 34 30 48 41 4e
+descriptor 4:    00 00 00 00 00 00 41 01 96 01 11 00 00 0a 01 0a 20 20
+extensions:      00
+checksum:        63
+
+Manufacturer: AUO Model 333d Serial Number 0
+Made week 0 of 2016
+EDID version: 1.4
+Digital display
+6 bits per primary color channel
+DisplayPort interface
+Maximum image size: 31 cm x 17 cm
+Gamma: 2.20
+Supported color formats: RGB 4:4:4
+First detailed timing is preferred timing
+Chroma Info:
+Red X: 0.630859 Y: 0.335938
+Green X: 0.323242 Y: 0.614258
+Blue X: 0.156250 Y: 0.040039
+White X: 0.313477 Y: 0.329102
+Established timings supported:
+Standard timings supported:
+Detailed mode: Clock 141.000 MHz, 309 mm x 174 mm
+               1920 1936 1952 2104 hborder 0
+               1080 1083 1097 1116 vborder 0
+               +hsync -vsync 
+Detailed mode: Clock 112.800 MHz, 309 mm x 174 mm
+               1920 1936 1952 2104 hborder 0
+               1080 1083 1097 1116 vborder 0
+               +hsync -vsync 
+ASCII string: KW8T4
+Manufacturer-specified data, tag 0
+Checksum: 0x63 (valid)
+EDID block does NOT conform to EDID 1.3!
+	Missing name descriptor
+	Missing monitor ranges
+	Detailed block string not properly terminated

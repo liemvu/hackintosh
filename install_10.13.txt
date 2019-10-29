@@ -1,0 +1,113 @@
+TODO
+=====
+- Trackpad: https://github.com/alexandred/VoodooI2CSynaptics
+- Brigtness control only work after sleep: use legacy boot on try: 
+  + https://osxlatitude.com/forums/topic/10236-how-to-fix-black-screen-in-high-sierra/	
+  + https://www.tonymacx86.com/threads/readme-common-problems-in-10-13-high-sierra.233582/
+- Card Reader: https://github.com/sinetek/Sinetek-rtsx
+
+1. Make usb:
+- https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
+- Use 5480 kext
+
+2. Install:
+- Mac os without convert AFS
+- Clover with drivers:
+  + OsxAptioFix*.efi
+  + EmuVariableUefi-64.efi
+  + HFS
+
+
+3. speed step
+- Use Generate options: PluginType in Clover, no drop OEM
+
+
+4. DSDT patch:
+- https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/
+    + Fix Store (Zero, ECRW) syntax
+    + Fix method XTBT
+    + Fix _WAK Arg0 v2
+	+ HPET Fix
+	+ SMBUS Fix
+	+ IRQ Fix
+	+ RTC Fix
+	+ OS Check Fix
+	+ Fix Mutex with n on-zero SyncLevel
+	+ Remove _PRW methods to prevent instant wake (usb_prw_0x6d_xhc_skl)
+
+5. Wifi & bluetooth:
+- BrcmFirmwareRepo.kext & BrcmPatchRAM2.kext in /L/E
+- AirportBrcm4360 fvco patch:
+
+	<dict>
+		<key>Comment</key>
+		<string>AirPortBrcm4360 - fcvo</string>
+		<key>Disabled</key>
+		<false/>
+		<key>Find</key>
+		<data>
+		gflSqgAAdSk=
+		</data>
+		<key>InfoPlistPatch</key>
+		<false/>
+		<key>Name</key>
+		<string>AirPortBrcm4360</string>
+		<key>Replace</key>
+		<data>
+		gflSqgAAZpA=
+		</data>
+	</dict>
+
+- Fix wifi slow before wake: https://www.tonymacx86.com/threads/slow-dropped-wifi-after-sleep-with-bcm943602baed-dw1830.236009/. Use Scenario & sleep wake script
+
+
+6. Keyboard & touchpad
+- https://www.tonymacx86.com/threads/voodooi2c-help-and-support.243378/page-39
+- DSDT Patch:
+  + GPIO Controller Enabler (manual by hand)
+  + Windows 10 patch
+  + GPIO Pin 0x0000
+  + _CSR: Return (ConcatenateResTemplate (SBFB, SBFG))
+
+- ACPI ID: TPD1
+- Hexadecimal APIC pin number: 0x33
+- GPIO: well root pinned with Return (ConcatenateResTemplate (SBFB, SBFG)) in _CSR
+- Remove:
+  + AppleHPM.kext
+  + AppleIntelLpssI2C.kext
+  + AppleIntelLpssI2CController.kext
+- Put VoodooI2C.kext & VoodooI2CHID.kext
+
+7. Sound
+- Codec Vendor id: 0x10ec0256
+- DSDT Patches:
+	<dict>
+		<key>Comment</key>
+		<string>100-200-300-Series-Rename HDAS to HDEF</string>
+		<key>Disabled</key>
+		<false/>
+		<key>Find</key>
+		<data>
+		SERBUw==
+		</data>
+		<key>Replace</key>
+		<data>
+		SERFRg==
+		</data>
+	</dict>
+- config.plist / Devices / Audio / Inject 56 & ResetHDA
+- AppleALC.kext in Others
+
+
+8. Backlight
+- ApplebackLightInjector: https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/
+- No need to inject ECID 0x9C7C
+
+Fn F6
+default	17:13:43.396037 +0700	kernel	ApplePS2Keyboard: sending key 46=6b down
+Fn F6
+default	17:19:28.021127 +0700	kernel	ApplePS2Keyboard: sending key 45=47 down
+
+
+9. Card reader
+- RTS525A PCI Express Card Reader: 	10ec525a

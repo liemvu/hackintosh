@@ -1,0 +1,7 @@
+[
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"230069","ColType":"String","ColValue":"VoodooI2CLogger"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"230071","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"230073","ColType":"String","ColValue":"com.alexandred.VoodooI2CServices"}},
+{"data":{"title":"IOClass"},"attr":{"id":"230075","ColType":"String","ColValue":"VoodooI2CLogger"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"230077","ColType":"String","ColValue":"VoodooI2CServices"}}
+]

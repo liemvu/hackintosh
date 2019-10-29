@@ -1,0 +1,16 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"104483","ColType":"Number","ColValue":"65535"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"104485","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"104487","ColType":"Data","ColValue":"&lt;05010906a101050719e029e71500250175019508810295017508810195027501050819012902910295017506910195067508150026ff000507190029ff8100050c19002aff0095067508150026ff008100c0&gt;"}},
+{"data":{"title":"VendorID"},"attr":{"id":"104489","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"104491","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"104493","ColType":"Number","ColValue":"14"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"104495","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"104497","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"104499","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"104500","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"104502","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"104504","ColType":"Number","ColValue":"6"}}]}]},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"104506","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"104508","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"Product"},"attr":{"id":"104510","ColType":"String","ColValue":"Keyboard"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"104512","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Transport"},"attr":{"id":"104514","ColType":"String","ColValue":"PS2"}}
+]

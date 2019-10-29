@@ -1,0 +1,20 @@
+[
+{"data":{"title":"Name"},"attr":{"id":"75633","ColType":"String","ColValue":"AssociationEventHistory"}},
+{"data":{"title":"LogIdentifier"},"attr":{"id":"75635","ColType":"String","ColValue":"AssociationEventHistory"}},
+{"data":{"title":"Owner"},"attr":{"id":"75637","ColType":"String","ColValue":"com.apple.iokit.IO80211Family"}},
+{"data":{"title":"IOReportLegend"},"attr":{"id":"75639","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"75640","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOReportSubGroupName"},"attr":{"id":"75642","ColType":"String","ColValue":"Pipe AssociationEventHistory"}},{"data":{"title":"IOReportChannels"},"attr":{"id":"75644","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"75645","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"75646","ColType":"Number","ColValue":"4846805723627135008"}},{"data":{"title":"1"},"attr":{"id":"75647","ColType":"Number","ColValue":"6443499521"}},{"data":{"title":"2"},"attr":{"id":"75648","ColType":"String","ColValue":"                              Log Calls"}}]},{"data":{"title":"3"},"attr":{"id":"75649","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"75650","ColType":"Number","ColValue":"4846805723630093378"}},{"data":{"title":"1"},"attr":{"id":"75651","ColType":"Number","ColValue":"6443499521"}},{"data":{"title":"2"},"attr":{"id":"75652","ColType":"String","ColValue":"   Log Messages Dropped Short Of Buffer"}}]},{"data":{"title":"3"},"attr":{"id":"75653","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"75654","ColType":"Number","ColValue":"4846805723629441568"}},{"data":{"title":"1"},"attr":{"id":"75655","ColType":"Number","ColValue":"6443499521"}},{"data":{"title":"2"},"attr":{"id":"75656","ColType":"String","ColValue":"                       Capture Requests"}}]}]},{"data":{"title":"IOReportGroupName"},"attr":{"id":"75658","ColType":"String","ColValue":"CoreCapture"}},{"data":{"title":"IOReportChannelInfo"},"attr":{"id":"75660","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOReportChannelUnit"},"attr":{"id":"75662","ColType":"Number","ColValue":"7205759403792793600"}}]}]}]},
+{"data":{"title":"LogType"},"attr":{"id":"75664","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"LogDataType"},"attr":{"id":"75666","ColType":"Number","ColValue":"5"}},
+{"data":{"title":"NumberOfFiles"},"attr":{"id":"75668","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"LogPolicy"},"attr":{"id":"75670","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClass"},"attr":{"id":"75672","ColType":"String","ColValue":"CCDataPipe"}},
+{"data":{"title":"PipeSize"},"attr":{"id":"75674","ColType":"Number","ColValue":"64"}},
+{"data":{"title":"FileSize"},"attr":{"id":"75676","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"NotifyThreshold"},"attr":{"id":"75678","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"MinLogSizeToNotify"},"attr":{"id":"75680","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"PipeType"},"attr":{"id":"75682","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Filename"},"attr":{"id":"75684","ColType":"String","ColValue":"AssociationEventHistory"}},
+{"data":{"title":"DirectoryName"},"attr":{"id":"75686","ColType":"String","ColValue":""}},
+{"data":{"title":"IOReportLegendPublic"},"attr":{"id":"75688","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"FileOptions"},"attr":{"id":"75690","ColType":"Number","ColValue":"0"}}
+]

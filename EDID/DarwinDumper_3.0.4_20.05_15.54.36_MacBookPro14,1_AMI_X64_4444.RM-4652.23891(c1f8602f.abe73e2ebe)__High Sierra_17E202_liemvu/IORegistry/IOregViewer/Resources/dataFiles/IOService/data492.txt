@@ -1,0 +1,7 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"224971","ColType":"Number","ColValue":"4000"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"224973","ColType":"String","ColValue":"AppleIntelSlowAdaptiveClockingManager"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"224975","ColType":"String","ColValue":"com.apple.driver.AppleIntelSlowAdaptiveClocking"}},
+{"data":{"title":"IOClass"},"attr":{"id":"224977","ColType":"String","ColValue":"AppleIntelSlowAdaptiveClockingManager"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"224979","ColType":"String","ColValue":"IOResources"}}
+]

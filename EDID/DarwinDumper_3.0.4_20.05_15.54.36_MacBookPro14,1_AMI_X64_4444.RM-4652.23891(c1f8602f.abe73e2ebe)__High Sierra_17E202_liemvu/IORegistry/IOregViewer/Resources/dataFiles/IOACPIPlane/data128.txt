@@ -1,0 +1,8 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"4167","ColType":"Number","ColValue":"18446744073709551615"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"4169","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"4171","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"4173","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"4175","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"_ADR"},"attr":{"id":"4177","ColType":"Number","ColValue":"2031619"}},
+{"data":{"title":"device-properties"},"attr":{"id":"4179","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"hda-gfx"},"attr":{"id":"4181","ColType":"Data","ColValue":"&lt;\"onboard-1\"&gt;"}},{"data":{"title":"layout-id"},"attr":{"id":"4183","ColType":"Data","ColValue":"&lt;38000000&gt;"}},{"data":{"title":"MaximumBootBeepVolume"},"attr":{"id":"4185","ColType":"Data","ColValue":"&lt;00&gt;"}},{"data":{"title":"acpi-path"},"attr":{"id":"4187","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/HDEF@1f0003"}},{"data":{"title":"PinConfigurations"},"attr":{"id":"4189","ColType":"Data","ColValue":"&lt;00&gt;"}},{"data":{"title":"acpi-device"},"attr":{"id":"4191","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}}]},
+{"data":{"title":"acpi-wake-gpe"},"attr":{"id":"4193","ColType":"Number","ColValue":"109"}},
+{"data":{"title":"acpi-pci-pm"},"attr":{"id":"4195","ColType":"Boolean","ColValue":"Yes"}}
+]

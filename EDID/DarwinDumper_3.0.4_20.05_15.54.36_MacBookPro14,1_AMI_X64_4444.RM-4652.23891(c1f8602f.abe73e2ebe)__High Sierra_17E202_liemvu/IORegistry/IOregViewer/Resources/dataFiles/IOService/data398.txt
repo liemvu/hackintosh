@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"130729","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"130731","ColType":"String","ColValue":"FakeSMCPlugin"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"130733","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"130735","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"device_type"},"attr":{"id":"130737","ColType":"String","ColValue":"thermal-zone"}}]},
+{"data":{"title":"Platform Profile"},"attr":{"id":"130739","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Default"},"attr":{"id":"130741","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Temperatures"},"attr":{"id":"130743","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Thermal Zone"},"attr":{"id":"130745","ColType":"String","ColValue":"_TMP"}},{"data":{"title":"UseKelvins"},"attr":{"id":"130747","ColType":"Boolean","ColValue":"Yes"}}]},{"data":{"title":"DisableDevice"},"attr":{"id":"130749","ColType":"Boolean","ColValue":"No"}}]},{"data":{"title":"HP"},"attr":{"id":"130751","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Default"},"attr":{"id":"130753","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DisableDevice"},"attr":{"id":"130755","ColType":"Boolean","ColValue":"Yes"}}]}]}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"130757","ColType":"String","ColValue":"org.hwsensors.driver.ACPISensors"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"130759","ColType":"String","ColValue":"FakeSMCKeyStore"}},
+{"data":{"title":"IOClass"},"attr":{"id":"130761","ColType":"String","ColValue":"ACPISensors"}}
+]

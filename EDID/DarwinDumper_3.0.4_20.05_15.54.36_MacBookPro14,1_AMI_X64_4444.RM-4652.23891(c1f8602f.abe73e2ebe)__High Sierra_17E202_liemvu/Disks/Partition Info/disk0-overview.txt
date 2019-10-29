@@ -1,0 +1,35 @@
+/dev/disk0 
+MTFDDAV512MBF-1AN15ABHA 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks:  
+Total Disk Size:  
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000af129e3b 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:6a031d73-b065-48fb-9c3f-3c56721bd5c6 
+Partition GUID: a7bacae6-08f9-4eb7-9a71-2914220c801d | Name: EFI System Partition 
+Partition GUID: 31fd88e8-0636-4888-8877-c2f1536f3708 | Name:  
+Partition GUID: 61a4bd54-c094-409d-a060-beb2cafc9645 | Name:  
+Partition GUID: bce1a99d-13da-4ad9-8149-bd1299a28a41 | Name:  
+Partition GUID: 827b0753-f3c2-463c-bdb1-9ea3ed17a992 | Name: Microsoft reserved partition 
+
+=========   =========                     ========                      ==========  ========= 
+LBA Start   Type                          GPT Name                      LoaderCode  Size LBA 
+=========   =========                     ========                      ==========  ========= 
+0           MBR                                                                     1 
+1           Primary GPT Header                                                      1 
+2           Primary GPT Table                                                       32 
+34          Space                                                                   6 
+40          EFI System Partition          EFI System Partition          Apple EFI   409600 
+409640      HFS+                                                        748538040 
+748947680   OSX Boot                                                    1269536 
+750217216   Windows Basic Data            Windows NTFS NTLDR            249735168 
+999952384   Microsoft Reserved Partition  Microsoft reserved partition              32768 
+999985152   Space                                                                   230031 
+1000215183  Backup GPT Table                                                        32 
+1000215215  Backup GPT Header                                                       1 

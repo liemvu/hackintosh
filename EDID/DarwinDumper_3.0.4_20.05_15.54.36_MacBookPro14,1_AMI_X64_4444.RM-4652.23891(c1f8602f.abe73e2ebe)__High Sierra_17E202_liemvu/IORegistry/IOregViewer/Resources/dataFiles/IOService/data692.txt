@@ -1,0 +1,17 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"303596","ColType":"Number","ColValue":"10202"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"303598","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"303600","ColType":"Data","ColValue":"&lt;05010902a1010902a1020901a100050919012920150025017501952081020501093009311581257f750895028106a1020948150025013501450475029501a4b10209381581257f3500450075088106c0a1020948b4b102350045007504b103050c0a38021581257f75088106c0c0c0c0&gt;"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"303602","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"VendorID"},"attr":{"id":"303604","ColType":"Number","ColValue":"5824"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"303606","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"303608","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"303610","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"303612","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"303613","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"303615","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"303617","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"303618","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"303620","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"303622","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"303624","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"SerialNumber"},"attr":{"id":"303626","ColType":"String","ColValue":"pqrs.org:org_pqrs_driver_Karabiner_VirtualHIDDevice_VirtualHIDPointing_v060600"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"303628","ColType":"String","ColValue":"pqrs.org"}},
+{"data":{"title":"Product"},"attr":{"id":"303630","ColType":"String","ColValue":"Karabiner VirtualHIDPointing"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"303632","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"LocationID"},"attr":{"id":"303634","ColType":"Number","ColValue":"0"}}
+]

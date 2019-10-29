@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"75613","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"75615","ColType":"String","ColValue":"IONetworkStack"}},
+{"data":{"title":"IONetworkMbufDMADrivers"},"attr":{"id":"75617","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"75618","ColType":"String","ColValue":"com.apple.driver.AirPort.BrcmNIC"}},{"data":{"title":"1"},"attr":{"id":"75619","ColType":"String","ColValue":"com.insanelymac.IntelMausiEthernet"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"75621","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"75623","ColType":"String","ColValue":"IOBSD"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"75625","ColType":"String","ColValue":"com.apple.iokit.IONetworkingFamily"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"75627","ColType":"String","ColValue":"IONetworkStackUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"75629","ColType":"String","ColValue":"IONetworkStack"}}
+]

@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"132484","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"132486","ColType":"String","ColValue":"AppleUSBHostResources"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"132488","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"UsbBusCurrentPoolID"},"attr":{"id":"132490","ColType":"Number","ColValue":"4294967932"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"132492","ColType":"String","ColValue":"IORTC"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"132494","ColType":"String","ColValue":"com.apple.iokit.IOUSBHostFamily"}},
+{"data":{"title":"IOClass"},"attr":{"id":"132496","ColType":"String","ColValue":"AppleUSBHostResources"}}
+]

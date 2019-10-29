@@ -1,0 +1,16 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"128576","ColType":"Number","ColValue":"65535"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"128578","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"ReportDescriptor"},"attr":{"id":"128580","ColType":"Data","ColValue":"&lt;05010902a1010509190129081500250195087501810295007501810005010901a1000930093116018026ff7f3600004600006500550009327510950381069501751016018026ff7f09388106c0c0&gt;"}},
+{"data":{"title":"VendorID"},"attr":{"id":"128582","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"128584","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"MaxInputReportSize"},"attr":{"id":"128586","ColType":"Number","ColValue":"9"}},
+{"data":{"title":"MaxFeatureReportSize"},"attr":{"id":"128588","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"MaxOutputReportSize"},"attr":{"id":"128590","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"128592","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"128593","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"128595","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"128597","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"128598","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"128600","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"128602","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"128604","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"128606","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"Product"},"attr":{"id":"128608","ColType":"String","ColValue":"Mouse"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"128610","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Transport"},"attr":{"id":"128612","ColType":"String","ColValue":"PS2"}}
+]

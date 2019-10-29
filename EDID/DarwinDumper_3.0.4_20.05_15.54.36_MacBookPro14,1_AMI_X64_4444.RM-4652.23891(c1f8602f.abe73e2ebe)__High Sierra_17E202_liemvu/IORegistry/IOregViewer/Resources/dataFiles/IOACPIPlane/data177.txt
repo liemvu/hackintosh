@@ -1,0 +1,4 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"4771","ColType":"Number","ColValue":"15"}},
+{"data":{"title":"name"},"attr":{"id":"4773","ColType":"Data","ColValue":"&lt;\"INT3400\"&gt;"}}
+]

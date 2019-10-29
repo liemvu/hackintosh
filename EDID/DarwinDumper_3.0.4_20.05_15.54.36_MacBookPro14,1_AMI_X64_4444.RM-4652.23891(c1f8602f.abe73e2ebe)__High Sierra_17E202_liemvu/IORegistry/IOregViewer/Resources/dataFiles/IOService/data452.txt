@@ -1,0 +1,18 @@
+[
+{"data":{"title":"bcdDevice"},"attr":{"id":"132868","ColType":"Number","ColValue":"257"}},
+{"data":{"title":"idProduct"},"attr":{"id":"132870","ColType":"Number","ColValue":"22580"}},
+{"data":{"title":"locationID"},"attr":{"id":"132872","ColType":"Number","ColValue":"346030080"}},
+{"data":{"title":"iInterface"},"attr":{"id":"132874","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"132876","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"132878","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"USB Interface Name"},"attr":{"id":"132880","ColType":"String","ColValue":"Contactless SmartCard"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"132882","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClassNameOverride"},"attr":{"id":"132884","ColType":"String","ColValue":"IOUSBInterface"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"132886","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"132888","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idVendor"},"attr":{"id":"132890","ColType":"Number","ColValue":"2652"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"132892","ColType":"String","ColValue":"IOUSBInterfaceUserClientV3"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"132894","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"132896","ColType":"String","ColValue":"IOUSBFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"132898","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"132900","ColType":"Number","ColValue":"11"}}
+]

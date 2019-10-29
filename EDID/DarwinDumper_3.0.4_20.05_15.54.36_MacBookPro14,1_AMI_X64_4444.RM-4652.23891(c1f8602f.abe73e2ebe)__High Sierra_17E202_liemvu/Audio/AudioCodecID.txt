@@ -1,0 +1,8 @@
+----------------------------------------
+AppleHDA
+Codec: 	Intel Kabylake HDMI [8086:280b] Rev.[00100000]
+Controller: Intel Corporation 
+----------------------------------------
+AppleHDA
+Codec: 	Realtek ALC256 [10ec:0256] Rev.[00100002]
+Controller: Intel Corporation 

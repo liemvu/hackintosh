@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"132462","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"132464","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"132466","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"132468","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"132470","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"132472","ColType":"String","ColValue":"AppleFDEKeyStore"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"132474","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"132476","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"132478","ColType":"String","ColValue":"com.apple.driver.AppleFDEKeyStore"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"132480","ColType":"String","ColValue":"AppleFDEKeyStoreUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"132482","ColType":"String","ColValue":"AppleFDEKeyStore"}}
+]

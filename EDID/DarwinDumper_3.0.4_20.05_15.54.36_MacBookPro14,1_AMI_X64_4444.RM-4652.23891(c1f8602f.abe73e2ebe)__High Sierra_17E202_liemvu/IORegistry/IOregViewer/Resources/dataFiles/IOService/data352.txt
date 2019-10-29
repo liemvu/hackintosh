@@ -1,0 +1,4 @@
+[
+{"data":{"title":"IOUserClientCreator"},"attr":{"id":"127509","ColType":"String","ColValue":"pid 49, karabiner_grabbe"}},
+{"data":{"title":"DebugState"},"attr":{"id":"127511","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"EventQueueMap"},"attr":{"id":"127513","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"127514","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"QueueSize"},"attr":{"id":"127516","ColType":"Number","ColValue":"36900"}},{"data":{"title":"head"},"attr":{"id":"127518","ColType":"Number","ColValue":"3556"}},{"data":{"title":"EnqueueErrorCount"},"attr":{"id":"127520","ColType":"Number","ColValue":"0"}},{"data":{"title":"tail"},"attr":{"id":"127522","ColType":"Number","ColValue":"3556"}}]}]}]}
+]

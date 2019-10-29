@@ -1,0 +1,4 @@
+[
+{"data":{"title":"kUSBHostDeviceForceSuspend"},"attr":{"id":"31283","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"31285","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"31287","ColType":"Number","ColValue":"1"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"31289","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"31291","ColType":"Number","ColValue":"2"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"31293","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"31295","ColType":"Number","ColValue":"65536"}}]}
+]

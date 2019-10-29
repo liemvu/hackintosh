@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"90127","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"90129","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"90131","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"90133","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"90135","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"90137","ColType":"String","ColValue":"AppleSSE"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"90139","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"90141","ColType":"String","ColValue":"com.apple.driver.AppleSSE"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"90143","ColType":"String","ColValue":"AppleSSEUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"90145","ColType":"String","ColValue":"AppleSSE"}}
+]

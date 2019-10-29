@@ -1,0 +1,19 @@
+[
+{"data":{"title":"AHCI-Built-In"},"attr":{"id":"67955","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"67957","ColType":"String","ColValue":"org.rehabman.injector.SATA-100-series-unsupported"}},
+{"data":{"title":"Chipset Name"},"attr":{"id":"67959","ColType":"String","ColValue":"10 Series Chipset"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"67961","ColType":"String","ColValue":"pci8086,9d03"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"67963","ColType":"String","ColValue":"com.apple.driver.AppleAHCIPort"}},
+{"data":{"title":"IOClass"},"attr":{"id":"67965","ColType":"String","ColValue":"AppleIntelPchSeriesAHCI"}},
+{"data":{"title":"Vendor Name"},"attr":{"id":"67967","ColType":"String","ColValue":"Intel"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"67969","ColType":"Number","ColValue":"2000"}},
+{"data":{"title":"IOPolledInterface"},"attr":{"id":"67971","ColType":"String","ColValue":"AppleAHCIPolledAdapter is not serializable"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"67973","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"67975","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"67976","ColType":"String","ColValue":"pci8086,a103"}},{"data":{"title":"1"},"attr":{"id":"67977","ColType":"String","ColValue":"pci8086,9d03"}}]},
+{"data":{"title":"Trace ID"},"attr":{"id":"67979","ColType":"Number","ColValue":"1507328"}},
+{"data":{"title":"IOPMResetPowerStateOnWake"},"attr":{"id":"67981","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"67983","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"67985","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"67987","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"67989","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"67991","ColType":"Number","ColValue":"2"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"67993","ColType":"Number","ColValue":"2"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"67995","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"AHCI-CAP"},"attr":{"id":"67997","ColType":"Number","ColValue":"18446744072756723456"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"67999","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"AHCI-Ejectable"},"attr":{"id":"68001","ColType":"Boolean","ColValue":"No"}}
+]

@@ -1,0 +1,15 @@
+                                                                                                                 
+                                                                                                                 
+disk0 MTFDDAV512MBF-1AN15ABHA (4096 byte physical block size)
+==========================================================================================================================================================================================
+ACT  DEVICE   TYPE                   NAME         SIZE    MBR (Stage0)  PBR (Stage1)        BootFile (Stage 2)  UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme               512 GB  None
+     disk0s1  EFI                    EFI          209 MB                Apple EFI
+                                                                                                                /EFI/Boot/BootX64.efi(Clover r4444.RM-4652.23891(c1f8602f.abe73e2ebe))
+                                                                                                                /EFI/Clover/CloverX64.efi(Clover r4444.RM-4652.23891(c1f8602f.abe73e2ebe))
+                                                                                                                /EFI/Microsoft/Boot/bootmgfw.efi
+     disk0s2  Apple_HFS              MAC          383 GB                 
+     disk0s3  Apple_Boot             Recovery HD  650 MB                 
+     disk0s4  Microsoft Basic Data                127 GB                Windows NTFS NTLDR
+     disk0s5  Microsoft Reserved                  16 MB                  

@@ -1,0 +1,9 @@
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *512.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS MAC                     383.3 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:       Microsoft Basic Data                         127.9 GB   disk0s4
+   5:         Microsoft Reserved                         16.8 MB    disk0s5
+

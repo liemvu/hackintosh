@@ -1,0 +1,21 @@
+[
+{"data":{"title":"USBPortType"},"attr":{"id":"31004","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idProduct"},"attr":{"id":"31006","ColType":"Number","ColValue":"22156"}},
+{"data":{"title":"AppleUSBAlternateServiceRegistryID"},"attr":{"id":"31008","ColType":"Number","ColValue":"4294968105"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"31010","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"31012","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"31014","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"USBSpeed"},"attr":{"id":"31016","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"IOReportLegend"},"attr":{"id":"31018","ColType":"Array","ColValue":"0_values"},"children":[]},
+{"data":{"title":"IOReportLegendPublic"},"attr":{"id":"31020","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"31022","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClassNameOverride"},"attr":{"id":"31024","ColType":"String","ColValue":"IOUSBInterface"}},
+{"data":{"title":"IOServiceLegacyMatchingRegistryID"},"attr":{"id":"31026","ColType":"Number","ColValue":"4294968105"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"31028","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"31030","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"idVendor"},"attr":{"id":"31032","ColType":"Number","ColValue":"3034"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"31034","ColType":"Number","ColValue":"14"}},
+{"data":{"title":"locationID"},"attr":{"id":"31036","ColType":"Number","ColValue":"340787200"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"31038","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"31040","ColType":"String","ColValue":"IOUSBFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"bcdDevice"},"attr":{"id":"31042","ColType":"Number","ColValue":"24659"}}
+]

@@ -1,0 +1,18 @@
+[
+{"data":{"title":"bcdDevice"},"attr":{"id":"132652","ColType":"Number","ColValue":"24659"}},
+{"data":{"title":"idProduct"},"attr":{"id":"132654","ColType":"Number","ColValue":"22156"}},
+{"data":{"title":"locationID"},"attr":{"id":"132656","ColType":"Number","ColValue":"340787200"}},
+{"data":{"title":"iInterface"},"attr":{"id":"132658","ColType":"Number","ColValue":"5"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"132660","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"132662","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"USB Interface Name"},"attr":{"id":"132664","ColType":"String","ColValue":"Integrated Webcam"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"132666","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClassNameOverride"},"attr":{"id":"132668","ColType":"String","ColValue":"IOUSBInterface"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"132670","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"132672","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"idVendor"},"attr":{"id":"132674","ColType":"Number","ColValue":"3034"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"132676","ColType":"String","ColValue":"IOUSBInterfaceUserClientV3"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"132678","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"132680","ColType":"String","ColValue":"IOUSBFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"132682","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"132684","ColType":"Number","ColValue":"14"}}
+]

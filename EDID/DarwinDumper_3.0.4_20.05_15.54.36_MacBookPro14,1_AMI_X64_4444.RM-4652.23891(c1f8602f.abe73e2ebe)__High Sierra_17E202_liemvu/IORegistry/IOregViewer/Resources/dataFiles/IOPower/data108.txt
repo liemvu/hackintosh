@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"29681","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"29683","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"29685","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"29687","ColType":"Number","ColValue":"49152"}}]},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"29689","ColType":"String","ColValue":"pci-serial"}},
+{"data":{"title":"Product Name"},"attr":{"id":"29691","ColType":"String","ColValue":"PCI Serial Adapter (22)"}},
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"29693","ColType":"String","ColValue":"22"}},
+{"data":{"title":"Location"},"attr":{"id":"29695","ColType":"String","ColValue":"PCI Bus=0 Dev=22 Func=3 BAR=0 Offset=0"}},
+{"data":{"title":"UART Type"},"attr":{"id":"29697","ColType":"String","ColValue":"16550AF/C/CF FIFO=16 MaxBaud=115200"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"29699","ColType":"String","ColValue":"com.apple.driver.Apple16X50Serial"}}
+]

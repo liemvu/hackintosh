@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"79493","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"79495","ColType":"String","ColValue":"PNP0C09"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"79497","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"79499","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"79500","ColType":"String","ColValue":"PNP0C09"}},{"data":{"title":"1"},"attr":{"id":"79501","ColType":"String","ColValue":"boot-ec"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"79503","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Statistics"},"attr":{"id":"79505","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MissingSCI"},"attr":{"id":"79507","ColType":"Number","ColValue":"0"}},{"data":{"title":"IBFPollTimeout"},"attr":{"id":"79509","ColType":"Number","ColValue":"0"}},{"data":{"title":"SpuriousSCI"},"attr":{"id":"79511","ColType":"Number","ColValue":"7117"}},{"data":{"title":"CommandCount"},"attr":{"id":"79513","ColType":"Number","ColValue":"632"}},{"data":{"title":"MaxLatency"},"attr":{"id":"79515","ColType":"Number","ColValue":"14898434"}},{"data":{"title":"OBFSciTimeout"},"attr":{"id":"79517","ColType":"Number","ColValue":"0"}},{"data":{"title":"SCIActive"},"attr":{"id":"79519","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"OBFPollTimeout"},"attr":{"id":"79521","ColType":"Number","ColValue":"0"}},{"data":{"title":"SpuriousQuery"},"attr":{"id":"79523","ColType":"Number","ColValue":"0"}},{"data":{"title":"CommandRetry"},"attr":{"id":"79525","ColType":"Number","ColValue":"2"}},{"data":{"title":"IBFSciTimeout"},"attr":{"id":"79527","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"79529","ColType":"String","ColValue":"com.apple.driver.AppleACPIEC"}},
+{"data":{"title":"IOClass"},"attr":{"id":"79531","ColType":"String","ColValue":"AppleACPIEC"}}
+]

@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"129843","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"129845","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"129847","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"129849","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"129851","ColType":"String","ColValue":"IOService"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"129853","ColType":"String","ColValue":"INT344B"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"129855","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"129857","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"129858","ColType":"String","ColValue":"INT344B"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"129860","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"129862","ColType":"String","ColValue":"org.coolstar.VoodooGPIO"}},
+{"data":{"title":"IOClass"},"attr":{"id":"129864","ColType":"String","ColValue":"VoodooGPIOSunrisePointLP"}}
+]

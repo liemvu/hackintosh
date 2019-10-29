@@ -1,0 +1,25 @@
+================================================
+disk0s1
+================================================
+-rwxrwxrwx  1 99  99    17K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/AppleImageCodec-64.efi
+-rwxrwxrwx  1 99  99   5.2K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/AppleKeyAggregator-64.efi
+-rwxrwxrwx  1 99  99   2.3K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/AppleUITheme-64.efi
+-rwxrwxrwx  1 99  99    25K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/AptioMemoryFix.efi
+-rwxrwxrwx  1 99  99   5.6K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/DataHubDxe-64.efi
+-rwxrwxrwx  1 99  99    21K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/FSInject-64.efi
+-rwxrwxrwx  1 99  99   7.1K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/FirmwareVolume-64.efi
+-rwxrwxrwx@ 1 99  99    24K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/HFSPlus.efi
+-rwxrwxrwx  1 99  99   4.4K May 18 11:43:56 2018 /Volumes/EFI/EFI/Clover/drivers64UEFI/SMCHelper-64.efi
+---------
+Versions:
+AppleImageCodec-64.efi (Unknown)
+AppleKeyAggregator-64.efi (Unknown)
+AppleUITheme-64.efi (Unknown)
+AptioMemoryFix.efi (Unknown)
+DataHubDxe-64.efi (Unknown)
+FirmwareVolume-64.efi (Unknown)
+FSInject-64.efi (Unknown)
+HFSPlus.efi (Unknown)
+._HFSPlus.efi (Unknown)
+SMCHelper-64.efi (Unknown)
+

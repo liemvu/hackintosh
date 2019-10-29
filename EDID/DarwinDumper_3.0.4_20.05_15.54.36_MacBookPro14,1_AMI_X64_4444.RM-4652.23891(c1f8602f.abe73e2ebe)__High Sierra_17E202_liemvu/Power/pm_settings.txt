@@ -1,0 +1,19 @@
+System-wide power settings:
+Currently in use:
+ standbydelay         10800
+ standby              0
+ womp                 0
+ hibernatefile        /var/vm/sleepimage
+ powernap             0
+ gpuswitch            2
+ halfdim              1
+ networkoversleep     0
+ disksleep            0
+ sleep                1 (sleep prevented by mds_stores, mds, AddressBookSourceSync)
+ autopoweroffdelay    28800
+ hibernatemode        0
+ autopoweroff         0
+ ttyskeepawake        1
+ displaysleep         10
+ tcpkeepalive         1
+ lidwake              1

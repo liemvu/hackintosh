@@ -1,0 +1,27 @@
+Index Refs Address            Size       Wired      Name (Version) UUID <Linked Against>
+   16    0 0xffffff7f80c1c000 0x4000     0x4000     com.rehabman.driver.USBInjectAll (0.6.2) 6A9D456A-D1B1-316E-90CD-78E5B0002C5E <12 11 4 3>
+   17    2 0xffffff7f80d1b000 0x1f000    0x1f000    as.vit9696.Lilu (1.2.3) 9C714621-4E3B-37F7-9439-49FB5355317B <7 5 4 3 2 1>
+   18    0 0xffffff7f80dbd000 0x4000     0x4000     com.sherlocks.IntelGraphicsDVMTFixup (1.2.0) FC793721-32B1-307F-8BE6-34A7FCDBB922 <17 7 5 4 3 2 1>
+   19    3 0xffffff7f80e54000 0x16000    0x16000    org.netkas.driver.FakeSMC (1765) 9EEC6103-EEBA-34B3-B9AF-8FE333C43E90 <11 7 5 4 3 1>
+   20    0 0xffffff7f8123d000 0xdf000    0xdf000    as.vit9696.AppleALC (1.2.6) 7CCD3E13-609E-39E3-A3AB-6596F38B38AE <17 12 7 5 4 3 2 1>
+   21    0 0xffffff7f8133e000 0x9000     0x9000     org.rehabman.driver.AppleSmartBatteryManager (1.81.4) 2B852534-CAC2-3E36-BF21-C10984081B74 <11 4 3>
+   49    3 0xffffff7f80af6000 0xe000     0xe000     org.rehabman.voodoo.driver.PS2Controller (1.8.34) FE68E3D5-29E0-346A-9036-090411302A58 <11 7 5 4 3 1>
+   62    0 0xffffff7f80d71000 0x14000    0x14000    com.insanelymac.IntelMausiEthernet (2.2.1d1) EB3195B7-9B0D-35C9-B97F-724349AEF72C <22 12 5 4 3 1>
+   63    0 0xffffff7f80e8f000 0x8000     0x8000     org.rehabman.driver.FakePCIID (1.3.9) BC738576-B800-3E7F-992D-3851C67CCAA9 <12 7 5 4 3 1>
+   71    0 0xffffff7f80b1a000 0x6000     0x6000     org.rehabman.voodoo.driver.PS2Keyboard (1.8.34) 454845C4-36AE-37F0-995E-961CAAF609FB <51 49 15 7 6 5 4 3 1>
+   72    0 0xffffff7f80b04000 0xc000     0xc000     org.rehabman.voodoo.driver.PS2Trackpad (1.8.34) B9DBC8C9-C6E0-3968-9117-DE9C66D74ECD <51 49 15 7 6 5 4 3 1>
+   73    0 0xffffff7f80b14000 0x4000     0x4000     org.rehabman.voodoo.driver.PS2Mouse (1.8.34) 45077C1C-4B59-3A32-B27C-C47ED9FFEBA7 <51 49 5 4 3>
+   96    0 0xffffff7f80e97000 0x4000     0x4000     com.intel.driver.EnergyDriver (2.0) A139E25A-85BE-378C-94A1-07E2293B6796 <7 5 4 3>
+   97    1 0xffffff7f80bb3000 0x7000     0x7000     com.alexandred.VoodooI2CServices (1) 71EEA5EA-0F7E-3988-B2A2-95C6F9FEFC40 <4 3>
+   98    1 0xffffff7f80bba000 0x10000    0x10000    org.coolstar.VoodooGPIO (1.1) 125807B8-4E2E-341B-AE46-F06983D562A3 <11 5 4 3>
+   99    1 0xffffff7f80bca000 0x2d000    0x2d000    com.alexandred.VoodooI2C (2.0.1) 39DC8666-C426-367D-AF7F-DA0591638437 <98 97 51 12 11 5 4 3 1>
+  100    0 0xffffff7f80e82000 0x8000     0x8000     org.hwsensors.driver.ACPISensors (1787) FA4DF6C0-0D3A-3CE2-8569-0AB2C84053E7 <19 11 7 5 4 3>
+  107    0 0xffffff7f80e6a000 0x11000    0x11000    org.hwsensors.driver.LPCSensors (1787) EF5BB9DC-C33F-3EED-9F96-42A7F22D806F <19 12 11 7 5 4 3>
+  112    1 0xffffff7f80fc1000 0x6000     0x6000     com.no-one.BrcmFirmwareStore (2.2.7) FA907595-C1CB-3D88-AD98-ADCDA9F29625 <5 4 3>
+  113    0 0xffffff7f81076000 0x6000     0x6000     com.no-one.BrcmPatchRAM2 (2.2.7) 76FC3024-9FF8-3607-A616-DF7C550751CB <112 30 5 4 3 1>
+  118    0 0xffffff7f82969000 0x5000     0x5000     com.bitgapp.eqMac2Driver (2.0) C8E2C7F3-989B-3EF0-AE56-80D339AC2703 <103 5 4 3>
+  127    0 0xffffff7f80fa0000 0x8000     0x8000     org.tw.CodecCommander (2.6.3) 6032938E-4161-35BC-9507-DE73BFA6ABB3 <103 12 11 4 3 1>
+  132    0 0xffffff7f80e7b000 0x5000     0x5000     org.hwsensors.driver.CPUSensors (1787) ED90DA0F-5876-3DB5-82EC-CEEA470A7479 <19 7 5 4 3>
+  146    0 0xffffff7f80bf7000 0x10000    0x10000    com.alexandred.VoodooI2CHID (1) 183CF1B2-A29B-33D0-9520-839FDCEA5E33 <99 87 51 11 5 4 3>
+  150    0 0xffffff7f8388a000 0x1d000    0x1d000    com.intel.kext.intelhaxm (6.2.1) 7B6ABC56-699C-3449-A0EC-BEB36C154E3C <7 5 4 3 1>
+  154    0 0xffffff7f838a7000 0x5000     0x5000     org.pqrs.driver.Karabiner.VirtualHIDDevice.v060600 (6.6.0) A9028F2F-C0F5-35DB-A8B4-1079538F9805 <51 5 4 3 1>

@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"132324","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"132326","ColType":"String","ColValue":"FakeSMCKeyStore"}},
+{"data":{"title":"manufacturer"},"attr":{"id":"132328","ColType":"String","ColValue":"Dell"}},
+{"data":{"title":"product-name"},"attr":{"id":"132330","ColType":"String","ColValue":" "}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"132332","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"132334","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"132336","ColType":"String","ColValue":"org.netkas.driver.FakeSMC"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"132338","ColType":"String","ColValue":"FakeSMCKeyStoreUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"132340","ColType":"String","ColValue":"FakeSMCKeyStore"}}
+]

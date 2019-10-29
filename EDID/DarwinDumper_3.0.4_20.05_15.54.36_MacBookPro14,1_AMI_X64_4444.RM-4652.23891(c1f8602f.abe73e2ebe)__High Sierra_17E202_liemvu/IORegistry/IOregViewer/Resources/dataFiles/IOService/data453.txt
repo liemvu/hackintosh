@@ -1,0 +1,18 @@
+[
+{"data":{"title":"bcdDevice"},"attr":{"id":"132902","ColType":"Number","ColValue":"257"}},
+{"data":{"title":"idProduct"},"attr":{"id":"132904","ColType":"Number","ColValue":"22580"}},
+{"data":{"title":"locationID"},"attr":{"id":"132906","ColType":"Number","ColValue":"346030080"}},
+{"data":{"title":"iInterface"},"attr":{"id":"132908","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"bAlternateSetting"},"attr":{"id":"132910","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bConfigurationValue"},"attr":{"id":"132912","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"USB Interface Name"},"attr":{"id":"132914","ColType":"String","ColValue":"Broadcom NFP"}},
+{"data":{"title":"bInterfaceProtocol"},"attr":{"id":"132916","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClassNameOverride"},"attr":{"id":"132918","ColType":"String","ColValue":"IOUSBInterface"}},
+{"data":{"title":"bInterfaceNumber"},"attr":{"id":"132920","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"bInterfaceSubClass"},"attr":{"id":"132922","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idVendor"},"attr":{"id":"132924","ColType":"Number","ColValue":"2652"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"132926","ColType":"String","ColValue":"IOUSBInterfaceUserClientV3"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"132928","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"2d9786c6-9ef3-11d4-ad51-000a27052861"},"attr":{"id":"132930","ColType":"String","ColValue":"IOUSBFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"bNumEndpoints"},"attr":{"id":"132932","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"bInterfaceClass"},"attr":{"id":"132934","ColType":"Number","ColValue":"255"}}
+]

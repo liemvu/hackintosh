@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"32749","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"32751","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"32753","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"32755","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"32757","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"32759","ColType":"String","ColValue":"VoodooI2CControllerNub"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"32761","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"32763","ColType":"Number","ColValue":"9999"}},
+{"data":{"title":"VoodooI2CServices Supported"},"attr":{"id":"32765","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"32767","ColType":"String","ColValue":"com.alexandred.VoodooI2C"}},
+{"data":{"title":"IOClass"},"attr":{"id":"32769","ColType":"String","ColValue":"VoodooI2CControllerDriver"}}
+]

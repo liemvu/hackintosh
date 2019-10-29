@@ -1,0 +1,9 @@
+[
+{"data":{"title":"RM,Version"},"attr":{"id":"230045","ColType":"String","ColValue":"org.tw.CodecCommander 2.6.3"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"230047","ColType":"String","ColValue":"CodecCommanderResidency"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"230049","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"RM,Build"},"attr":{"id":"230051","ColType":"String","ColValue":"Release-rehabman"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"230053","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"230055","ColType":"String","ColValue":"org.tw.CodecCommander"}},
+{"data":{"title":"IOClass"},"attr":{"id":"230057","ColType":"String","ColValue":"CodecCommanderResidency"}}
+]

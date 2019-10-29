@@ -1,0 +1,5 @@
+[
+{"data":{"title":"table"},"attr":{"id":"2316","ColType":"Data","ColValue":"&lt;f026347a00000000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"2318","ColType":"Data","ColValue":"&lt;\"64D120B4-4448-5FFF-8376-F4B17994EC35\"&gt;"}},
+{"data":{"title":"guid"},"attr":{"id":"2320","ColType":"Data","ColValue":"&lt;b420d1644844ff5f8376f4b17994ec35&gt;"}}
+]

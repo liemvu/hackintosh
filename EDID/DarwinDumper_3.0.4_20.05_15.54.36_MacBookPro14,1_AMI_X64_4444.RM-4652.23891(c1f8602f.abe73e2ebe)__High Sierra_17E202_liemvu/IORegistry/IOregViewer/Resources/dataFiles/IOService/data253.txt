@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"67810","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"67812","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"Location"},"attr":{"id":"67814","ColType":"String","ColValue":"PCI Bus=0 Dev=22 Func=3"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"67816","ColType":"String","ColValue":"pci-serial"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"67818","ColType":"Number","ColValue":"900"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"67820","ColType":"String","ColValue":"com.apple.driver.Apple16X50Serial"}},
+{"data":{"title":"IOKitDebug"},"attr":{"id":"67822","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOPCIClassMatch"},"attr":{"id":"67824","ColType":"String","ColValue":"0x07000000&0xFFFF0000"}},
+{"data":{"title":"IOClass"},"attr":{"id":"67826","ColType":"String","ColValue":"com_apple_driver_16X50PCI"}}
+]

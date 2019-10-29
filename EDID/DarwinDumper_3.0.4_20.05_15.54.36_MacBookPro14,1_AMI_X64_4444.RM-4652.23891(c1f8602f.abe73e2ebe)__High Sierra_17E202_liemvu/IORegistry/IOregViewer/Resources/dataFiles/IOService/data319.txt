@@ -1,0 +1,5 @@
+[
+{"data":{"title":"IOHDACodecRevisionID"},"attr":{"id":"78586","ColType":"Number","ColValue":"1048578"}},
+{"data":{"title":"IOHDACodecAddress"},"attr":{"id":"78588","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOHDACodecVendorID"},"attr":{"id":"78590","ColType":"Number","ColValue":"283902550"}}
+]

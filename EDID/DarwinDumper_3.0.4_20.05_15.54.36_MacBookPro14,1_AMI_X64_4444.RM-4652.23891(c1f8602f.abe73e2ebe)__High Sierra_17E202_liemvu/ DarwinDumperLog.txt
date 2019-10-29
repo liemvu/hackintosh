@@ -1,0 +1,1172 @@
+===================================
+Welcome to DarwinDumper 3.0.4
+Sun May 20 15:54:37 +07 2018
+System Version: macOS 10.13.4 (17E202)
+Security Integrity Configuration: 0x00000067
+===================================
+Initialisation information
+===================================
+*Reading /Users/liemvu/Library/Preferences/org.tom.DarwinDumper.plist
+*Found previous option: ArchiveZip
+*Found previous option: Report
+*Found save path /Users/liemvu/Desktop/e7480_install_10.13/edid
+*Found previous option: acpi
+*Found previous option: biosSystem
+*Found previous option: biosVideo
+*Found previous option: bootLoaderBootSectors
+*Found previous option: bootlogF
+*Found previous option: bootlogK
+*Found previous option: codecid
+*Found previous option: cpuinfo
+*Found previous option: devprop
+*Found previous option: diskLoaderConfigs
+*Found previous option: diskPartitionInfo
+*Found previous option: dmi
+*Found previous option: edid
+*Found previous option: firmmemmap
+*Found previous option: ioreg
+*Found previous option: kernelinfo
+*Found previous option: kexts
+*Found previous option: lspci
+*Found previous option: memory
+*Found previous option: nvram
+*Found previous option: opencl
+*Found previous option: power
+*Found previous option: rcscripts
+*Found previous option: rtc
+*Found previous option: sip
+*Found previous option: smc
+*Found previous option: sysprof
+*Symlink check: Symlink has not been created.
+*User Chose: Archive Zip
+*User Chose: Audio Codec
+*User Chose: System BIOS
+*User Chose: Video BIOS
+*User Chose: Boot Loaders and Disk Sectors
+*User Chose: CPU Information
+*User Chose: Disk Loader Configs
+*User Chose: Disk Partitions
+*User Chose: Firmware Memory Map
+*User Chose: LSPCI
+*User Chose: Memory Dump
+*User Chose: ACPI tables
+*User Chose: Firmware (Boot) Log
+*User Chose: Kernel (Boot) Messages
+*User Chose: Device Properties
+*User Chose: DMI Tables
+*User Chose: EDID
+*User Chose: IORegistry
+*User Chose: Kernel Info
+*User Chose: Kexts
+*User Chose: NVRAM
+*User Chose: Open CL
+*User Chose: Power
+*User Chose: RC Scripts
+*User Chose: RTC
+*User Chose: SIP
+*User Chose: SMC Keys
+*User Chose: System Profiler
+*User Chose: Report
+===================================
+000s : +Started process DumpFilesBootlogKernel: pid 792
+          Extracting boot time kernel entries from the system log..
+000s : +Started process DumpFilesMemory: pid 795
+000s : +Started process DumpFilesSystemProfilerInfo: pid 801
+000s : +Started process DumpFilesDiskUtilConfigsAndLoaders: pid 809
+000s : +Started process DumpFilesBiosROM: pid 818
+001s : +Started process DumpFilesBiosVideoROM: pid 827
+          Extracting kernel entries from 2018-05-20 15:52:32 to 2018-05-20 15:58:32
+          Preparing to read disks...
+Note: There may be a delay if any disks are sleeping
+          Memory: Attempting to load MacPmem driver kext to access memory.
+          Driver: Loading com.google.MacPmem
+          Driver: Loading DirectHW
+          Driver: Loading RadeonPCI
+          Driver: com.google.MacPmem loaded successfully.
+          Memory: Scanning memory regions.
+          Memory: Writing 4096 bytes from (00000000 to 00000fff) to disk
+          Memory: Writing 4096 bytes from (00002000 to 00002fff) to disk
+          Memory: Writing 512 bytes from (00003000 to 000031ff) to disk
+          Driver: DirectHW loaded successfully.
+          Memory: Writing 3584 bytes from (00003200 to 00003fff) to disk
+          Memory: Writing 4096 bytes from (00005000 to 00005fff) to disk
+          Memory: Writing 4096 bytes from (00006000 to 00006fff) to disk
+          Memory: Writing 4096 bytes from (00007000 to 00007fff) to disk
+          Driver: RadeonPCI loaded successfully.
+          Running RadeonDump
+          Memory: Writing 5376 bytes from (00007400 to 000088ff) to disk
+          Number of legacy VBIOS ROM's dumped: 1
+          Memory: Writing 4096 bytes from (0000a000 to 0000afff) to disk
+          Driver: Unloading RadeonPCI
+          Memory: Writing 16384 bytes from (00010000 to 00013fff) to disk
+          Memory: Writing 65536 bytes from (00030000 to 0003ffff) to disk
+          Memory: Writing 65536 bytes from (00060000 to 0006ffff) to disk
+          Driver: RadeonPCI successfully unloaded.
+          Memory: Writing 12288 bytes from (00070000 to 00072fff) to disk
+          Memory: Writing 4096 bytes from (00073000 to 00073fff) to disk
+          Memory: Scanning complete.
+          Memory: Writing memory info to file.
+          Memory: Splitting memory info file.
+          Memory: Convert memory map file to table.
+          Memory: Sorting memory map table file.
+          Memory: Split sorted memory map table file in to ranges.
+          Memory: Sorting range files.
+          Memory: Convert efi range file to hex.
+          Looking for existence of ACPI table: VFCT
+003s : -Completed DumpFilesBiosVideoROM
+004s : -Completed DumpFilesBootlogKernel
+          Scanning disk: disk0
+          Reading partition info for: disk0
+          Memory: Done.
+          Driver: Unloading com.google.MacPmem
+          Driver: com.google.MacPmem successfully unloaded.
+          Scanning & interpreting partition table for disk0
+          Check: ** /BIOS/System/biosbackup.rom failed to be created.
+          Driver: Unloading DirectHW
+          Check: /System Profiler/System-Profiler.spx created.
+          Driver: DirectHW successfully unloaded.
+007s : -Completed DumpFilesBiosROM
+          Searching for Bootloader files on disk0s1
+          Found /Volumes/EFI/EFI/CLOVER/config.plist
+          Searching for Bootloader files on disk0s2
+          Found /Volumes/MAC/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk0s3
+014s : -Completed DumpFilesDiskUtilConfigsAndLoaders
+          Check: /System Profiler/System-Profiler.txt created.
+020s : -Completed DumpFilesSystemProfilerInfo
+020s : +Started process DumpFilesAcpiTables: pid 4427
+020s : +Started process DumpFilesAudioCodec: pid 4430
+020s : +Started process DumpFilesFirmwareMemoryMap: pid 4435
+          Dumping Kext lists...
+020s : +Started process DumpFilesKextLists: pid 4443
+020s : +Started process DumpFilesBootLogFirmware: pid 4451
+020s : +Started process DumpFilesDeviceProperties: pid 4457
+          Dumped AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)_ boot log.
+          Check: /BootLog_Firmware/AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__BootLog.txt created.
+020s : +Started process DumpFilesOpenCLInfo: pid 4462
+020s : -Completed DumpFilesBootLogFirmware
+020s : +Started process DumpFilesKernelInfo: pid 4474
+          Audio: AppleHDA is loaded.
+          Audio: VoodooHDA is not loaded.
+          Audio: Attempting to load VoodooHDA.kext to run the getdump tool.
+020s : +Started process DumpSip: pid 4479
+          Check: /SIP/SIP_status.txt created.
+          Check: /Kernel Info/sysctl_cpu.txt created.
+020s : -Completed DumpSip
+020s : +Started process DumpFilesSmcKeys: pid 4490
+          Check: /SMC/SMC-keys.txt created.
+020s : +Started process DumpFilesRtc: pid 4500
+          Check: /OpenCL/openCLinfo.txt created.
+          Check: /SMC/SMC-fans.txt created.
+          Check: /Kernel Info/sysctl_hw.txt created.
+020s : -Completed DumpFilesSmcKeys
+020s : +Started process DumpFilesRcScripts: pid 4506
+020s : -Completed DumpFilesOpenCLInfo
+          Check: /RC Scripts/rc.clover.lib created.
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+021s : -Completed DumpFilesKernelInfo
+021s : -Completed DumpFilesRcScripts
+          Found ACPI table: APIC
+          Check: /Kexts/loaded_non_apple_kexts.txt created.
+          Driver: Loading VoodooHDA
+          Disassembled ACPI table: APIC
+          Found ACPI table: ASF!
+          Disassembled ACPI table: ASF!
+          Found ACPI table: BGRT
+          Check: /Kexts/loaded_apple_kexts.txt created.
+          Disassembled ACPI table: BGRT
+          Found ACPI table: DBG2
+          Check: /Device Properties/device-properties.hex created.
+          Check: /Device Properties/device-properties.plist created.
+021s : -Completed DumpFilesDeviceProperties
+          Disassembled ACPI table: DBG2
+          Found ACPI table: DBGP
+          Driver: VoodooHDA loaded successfully.
+          Disassembled ACPI table: DBGP
+          Audio: Waiting 2 seconds before running VoodooHDA's getdump.
+          Found ACPI table: DSDT
+          Check: /RTC/RTCDump.txt created.
+022s : -Completed DumpFilesRtc
+          Found ACPI table: FACP
+          Check: /Kexts/prelinked_kexts_list.txt created.
+          Disassembled ACPI table: FACP
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: FACS-1
+          Disassembled ACPI table: FACS-1
+          Found ACPI table: FIDT
+          Check: /Kexts/prelinked_kexts_dictionary.plist created.
+022s : -Completed DumpFilesKextLists
+          Disassembled ACPI table: FIDT
+          Found ACPI table: FPDT
+          Disassembled ACPI table: FPDT
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: HPET-1
+          Disassembled ACPI table: HPET-1
+          Found ACPI table: LPIT
+          Disassembled ACPI table: LPIT
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Audio: Running VoodooHDA's getdump...
+          Audio: VoodooHDA's getdump tool failed to produce a dump.
+          Audio: AppleHDA needs to be disabled for this dump to work properly.
+          Audio: Running getcodecid
+          Found ACPI table: MSDM
+          Audio: pci.ids uncompressed
+          Audio: Parsing getcodecid line 0:*AppleHDA*	Intel Kabylake HDMI (8086:280b) Rev.(00100000)
+          Audio: Parsing getcodecid line 1:		Controller 8086:9d71 (sub-ven:1028:07a0)
+          Disassembled ACPI table: MSDM
+          Found ACPI table: RSDT
+          Audio: Parsing getcodecid line 2:*AppleHDA*	Realtek ALC256 (10ec:0256) Rev.(00100002)
+          Disassembled ACPI table: RSDT
+          Audio: Parsing getcodecid line 3:		Controller 8086:9d71 (sub-ven:1028:07a0)
+          Found ACPI table: SLIC
+          Disassembled ACPI table: SLIC
+          Check: /Audio/AudioCodecID.txt created.
+          Audio: getcodecid completed audio codec ID dump
+          Found ACPI table: SSDT
+          Driver: Unloading VoodooHDA
+          Found ACPI table: SSDT-1
+          Driver: VoodooHDA successfully unloaded.
+026s : -Completed DumpFilesAudioCodec
+          Found ACPI table: SSDT-2
+          Found ACPI table: SSDT-3
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-5
+          Found ACPI table: SSDT-6
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-8
+          Found ACPI table: SSDT-9
+          Found ACPI table: SSDT-10
+          Found ACPI table: TPM2
+          Disassembled ACPI table: TPM2
+          Found ACPI table: UEFI
+          Disassembled ACPI table: UEFI
+          Disassembling DSDT and SSDT's (12 files in total) as multiple tables from single namespace...
+          ** Error disassembling. Attaching iasl log to logfile.
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 3 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.dsl - 31310 bytes
+
+ iASL Warning: There were 3 external control methods found during
+ disassembly, but only 2 were resolved (1 unresolved). Additional
+ ACPI tables may be required to properly disassemble the code. This
+ resulting disassembler output file may not compile because the
+ disassembler did not know how many arguments to assign to the
+ unresolved methods. Note: SSDTs can be dynamically loaded at
+ runtime and may or may not be available via the host OS.
+
+ In addition, the -fe option can be used to specify a file containing
+ control method external declarations with the associated method
+ argument counts. Each line of the file must be of the form:
+     External (<method pathname>, MethodObj, <argument count>)
+ Invocation:
+     iasl -fe refs.txt -d dsdt.aml
+
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.dsl - 1334 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.dsl - 26134 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.dsl - 18662 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.dsl - 2071 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 2 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.dsl - 5361 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler version 20160729-64
+Copyright (c) 2000 - 2016 Intel Corporation
+
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 3 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.dsl - 36146 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.dsl - 13684 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 7 external control methods, reparsing with new information
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.dsl - 105756 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.dsl - 7908 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.dsl - 5147 bytes
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml, Length 0x2631B (156443) bytes
+ACPI: DSDT 0x0000000000000000 02631B (v02 DELL   CBX3     01072009 INTL 20180427)
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml, Length 0x359 (857) bytes
+ACPI: SSDT 0x0000000000000000 000359 (v01 SataRe SataTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml, Length 0x3D2 (978) bytes
+ACPI: SSDT 0x0000000000000000 0003D2 (v02 hack   _PNLF    00000000 INTL 20180427)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml, Length 0x5136 (20790) bytes
+ACPI: SSDT 0x0000000000000000 005136 (v02 DptfTa DptfTabl 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml, Length 0x517 (1303) bytes
+ACPI: SSDT 0x0000000000000000 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml, Length 0x3002 (12290) bytes
+ACPI: SSDT 0x0000000000000000 003002 (v02 INTEL  PtidDevc 00001000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml, Length 0x29F (671) bytes
+ACPI: SSDT 0x0000000000000000 00029F (v02 INTEL  sensrhub 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml, Length 0x141 (321) bytes
+ACPI: SSDT 0x0000000000000000 000141 (v02 INTEL  HdaDsp   00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml, Length 0xEDE (3806) bytes
+ACPI: SSDT 0x0000000000000000 000EDE (v02 CpuRef CpuSsdt  00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml, Length 0xEBE (3774) bytes
+ACPI: SSDT 0x0000000000000000 000EBE (v02 INTEL  xh_OEMBD 00000000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml, Length 0x53 (83) bytes
+ACPI: SSDT 0x0000000000000000 000053 (v01 PmRef  CpuPm    00003000 INTL 20120320)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Input file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml, Length 0x12FE (4862) bytes
+ACPI: SSDT 0x0000000000000000 0012FE (v02 SaSsdt SaSsdt   00003000 INTL 20160422)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Found 57 external control methods, reparsing with new information
+Pass 1 parse of [DSDT]
+ACPI Error: [BNUM] Namespace lookup failure, AE_ALREADY_EXISTS (20160729/dsfield-732)
+ACPI Error: [IDMN] Namespace lookup failure, AE_ALREADY_EXISTS (20160729/dsfield-732)
+ACPI Error: [IDPC] Namespace lookup failure, AE_ALREADY_EXISTS (20160729/dsfield-732)
+ACPI Error: [DLPN] Namespace lookup failure, AE_ALREADY_EXISTS (20160729/dsfield-732)
+Pass 2 parse of [DSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Disassembly completed
+ASL Output:    /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.dsl - 1208601 bytes
+
+ iASL Warning: There were 57 external control methods found during
+ disassembly, but only 49 were resolved (8 unresolved). Additional
+ ACPI tables may be required to properly disassemble the code. This
+ resulting disassembler output file may not compile because the
+ disassembler did not know how many arguments to assign to the
+ unresolved methods. Note: SSDTs can be dynamically loaded at
+ runtime and may or may not be available via the host OS.
+
+ In addition, the -fe option can be used to specify a file containing
+ control method external declarations with the associated method
+ argument counts. Each line of the file must be of the form:
+     External (<method pathname>, MethodObj, <argument count>)
+ Invocation:
+     iasl -fe refs.txt -d dsdt.aml
+
+Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/DSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-9.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-8.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-7.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-6.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-5.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-4.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-3.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-2.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-10.aml
+External object resolution file /Users/liemvu/Desktop/e7480_install_10.13/edid/DarwinDumper_3.0.4_20.05_15.54.36_MacBookPro14,1_AMI_X64_4444.RM-4652.23891(c1f8602f.abe73e2ebe)__High Sierra_17E202_liemvu/ACPI Tables/AML/SSDT-1.aml
+029s : -Completed AcpiTables
+          Check: /Memory/FirmwareMemoryMap.txt created.
+030s : -Completed DumpFilesFirmwareMemoryMap
+031s : +Started process DumpFilesLspci: pid 4938
+          Update pciids database
+031s : +Started process DumpFilesDmiTables: pid 4941
+031s : +Started process DumpFilesNvram: pid 4947
+031s : +Started process DumpFilesEdid: pid 4951
+          Check: /NVRAM/nvram.plist created.
+          Check: /NVRAM/nvram_hexdump.txt created.
+031s : +Started process DumpFilesCpuInfo: pid 4956
+031s : +Started process DumpFilesPower: pid 4966
+          Check: /DMI Tables/SMBIOS.bin created.
+          Check: /Power/pm_settings.txt created.
+          Check: /DMI Tables/SMBIOS.txt created.
+031s : -Completed DumpFilesDmiTables
+          Check: /NVRAM/nvram.plist created.
+031s : -Completed DumpFilesNvram
+          Found 1 EDID in ioreg
+          Check: /CPU/cpuinfo.txt created.
+          Memory: Attempting to load AppleIntelInfo.kext.
+          Driver: Loading com.pikeralpha.driver.AppleIntelInfo
+          Driver: com.pikeralpha.driver.AppleIntelInfo loaded successfully.
+032s : -Completed DumpFilesCpuInfo
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+          Checking Clover bootlog for EDID data
+          No EDID data found under EdidDiscovered in bootlog
+033s : -Completed DumpFilesEdid
+          Check: /Power/pm_log.txt created.
+          Check: /Power/pm_assertions.txt created.
+033s : -Completed DumpFilesPower
+          Update pciids
+          update-pciids: download failed
+          Dumping LSPCI info...
+          Driver: Loading DirectHW
+          Driver: DirectHW loaded successfully.
+          Check: /LSPCI/lspci (nnvv).txt created.
+          Check: /LSPCI/lspci detailed (nnvvbxxxx).txt created.
+          Check: /LSPCI/lspci tree (nnvvt).txt created.
+          Check: /LSPCI/lspci map (M).txt created.
+          Driver: Unloading DirectHW
+          Driver: DirectHW successfully unloaded.
+034s : -Completed DumpFilesLspci
+035s : +Started process DumpFilesIoreg: pid 5048
+          Running ioregwv...
+038s : -Completed DumpFilesIoreg
+===================================
+Dumps complete after: 38 seconds
+===================================
+Creating HTML report...
+          adding ACPI tables
+          adding VoodooHDAGetdump.txt
+          adding BIOS flashrom_log.txt
+          adding diskutil & loader info
+          adding Bootloader config files
+          adding boot log - firmware
+          adding boot log - kernel messages
+          adding CPU Information
+          adding device properties
+          adding partition table info
+          adding disk & volume UIDs
+          adding DMI dump
+          adding EDID.txt
+          adding firmware memory map
+          adding IORegistry Viewer
+          adding kernel info
+          adding kext dumps
+          adding LSPCI dumps
+          adding Intel Graphics Register dumps
+          adding nvram info
+          adding OpenCL dump
+          adding power dumps
+          adding RC Startup and Shutdown scripts
+          adding RTC dump
+          adding SIP dump
+          adding SMC dumps
+          adding System Profiler dump
+===================================
+DarwinDumper Completed in: 54 seconds
+===================================

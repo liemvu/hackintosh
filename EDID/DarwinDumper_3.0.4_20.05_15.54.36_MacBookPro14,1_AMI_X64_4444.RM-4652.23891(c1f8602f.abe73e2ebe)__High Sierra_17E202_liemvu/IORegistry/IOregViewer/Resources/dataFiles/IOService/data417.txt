@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"132342","ColType":"String","ColValue":"AppleALC"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"132344","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"132346","ColType":"String","ColValue":"as.vit9696.AppleALC"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"132348","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClass"},"attr":{"id":"132350","ColType":"String","ColValue":"AppleALC"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"132352","ColType":"String","ColValue":"IOResources"}}
+]

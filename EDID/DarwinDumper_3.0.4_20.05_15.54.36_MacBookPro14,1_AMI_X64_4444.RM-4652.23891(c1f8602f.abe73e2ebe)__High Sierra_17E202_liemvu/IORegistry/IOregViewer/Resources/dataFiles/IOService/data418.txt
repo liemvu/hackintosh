@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"132354","ColType":"String","ColValue":"rehab_BatteryTracker"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"132356","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"132358","ColType":"String","ColValue":"org.rehabman.driver.AppleSmartBatteryManager"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"132360","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClass"},"attr":{"id":"132362","ColType":"String","ColValue":"rehab_BatteryTracker"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"132364","ColType":"String","ColValue":"IOResources"}}
+]

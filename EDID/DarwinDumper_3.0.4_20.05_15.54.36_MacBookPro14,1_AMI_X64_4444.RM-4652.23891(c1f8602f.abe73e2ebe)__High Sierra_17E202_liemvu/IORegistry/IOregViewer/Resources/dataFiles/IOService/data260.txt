@@ -1,0 +1,21 @@
+[
+{"data":{"title":"NCQ"},"attr":{"id":"68081","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOMaximumBlockCountWrite"},"attr":{"id":"68083","ColType":"Number","ColValue":"65536"}},
+{"data":{"title":"Physical Block Size"},"attr":{"id":"68085","ColType":"Number","ColValue":"4096"}},
+{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"68087","ColType":"String","ColValue":"Internal"}},
+{"data":{"title":"Revision"},"attr":{"id":"68089","ColType":"String","ColValue":"M6T3    "}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"68091","ColType":"String","ColValue":"com.apple.iokit.IOAHCIBlockStorage"}},
+{"data":{"title":"IOClass"},"attr":{"id":"68093","ColType":"String","ColValue":"AppleAHCIDiskDriver"}},
+{"data":{"title":"IOPlatformPanicAction"},"attr":{"id":"68095","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOPolledInterface"},"attr":{"id":"68097","ColType":"String","ColValue":"AppleAHCIDiskPolledInterface is not serializable"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"68099","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"SATA Features"},"attr":{"id":"68101","ColType":"Number","ColValue":"63"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"68103","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"Serial Number"},"attr":{"id":"68105","ColType":"String","ColValue":"        170515A70564"}},
+{"data":{"title":"Model"},"attr":{"id":"68107","ColType":"String","ColValue":"MTFDDAV512MBF-1AN15ABHA                 "}},
+{"data":{"title":"Trace ID"},"attr":{"id":"68109","ColType":"Number","ColValue":"1507360"}},
+{"data":{"title":"Logical Block Size"},"attr":{"id":"68111","ColType":"Number","ColValue":"512"}},
+{"data":{"title":"IOMaximumBlockCountRead"},"attr":{"id":"68113","ColType":"Number","ColValue":"65536"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"68115","ColType":"String","ColValue":"IOAHCIDevice"}},
+{"data":{"title":"Queue Depth"},"attr":{"id":"68117","ColType":"Number","ColValue":"32"}}
+]

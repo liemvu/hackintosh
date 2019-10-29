@@ -1,0 +1,6 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"129910","ColType":"Number","ColValue":"15"}},
+{"data":{"title":"compatible"},"attr":{"id":"129912","ColType":"Data","ColValue":"&lt;\"PNP0D80\"&gt;"}},
+{"data":{"title":"_UID"},"attr":{"id":"129914","ColType":"String","ColValue":"1"}},
+{"data":{"title":"name"},"attr":{"id":"129916","ColType":"Data","ColValue":"&lt;\"INT33A1\"&gt;"}}
+]

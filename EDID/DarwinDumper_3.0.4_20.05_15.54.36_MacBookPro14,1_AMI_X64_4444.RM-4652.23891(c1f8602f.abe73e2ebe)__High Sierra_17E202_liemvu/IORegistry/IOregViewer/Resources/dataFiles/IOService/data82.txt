@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"3445","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"3447","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"3449","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"3451","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"3453","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"3455","ColType":"String","ColValue":"FakeSMCPlugin"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"3457","ColType":"String","ColValue":"processor"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"3459","ColType":"String","ColValue":"processor"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"3461","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"3463","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"processor-index"},"attr":{"id":"3465","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"Platform Profile"},"attr":{"id":"3467","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Default"},"attr":{"id":"3469","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Tjmax"},"attr":{"id":"3471","ColType":"Number","ColValue":"0"}},{"data":{"title":"PlatformString"},"attr":{"id":"3473","ColType":"String","ColValue":""}}]}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"3475","ColType":"String","ColValue":"org.hwsensors.driver.CPUSensors"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"3477","ColType":"String","ColValue":"ACPI"}},
+{"data":{"title":"IOClass"},"attr":{"id":"3479","ColType":"String","ColValue":"CPUSensors"}}
+]

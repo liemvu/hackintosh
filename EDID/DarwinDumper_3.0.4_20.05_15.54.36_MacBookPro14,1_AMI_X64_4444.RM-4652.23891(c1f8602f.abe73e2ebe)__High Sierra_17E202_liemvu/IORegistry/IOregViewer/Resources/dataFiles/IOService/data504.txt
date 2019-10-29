@@ -1,0 +1,18 @@
+[
+{"data":{"title":"IOAudioEngineGlobalUniqueID"},"attr":{"id":"225186","ColType":"String","ColValue":"EQMAC2.1_DRIVER_ENGINE"}},
+{"data":{"title":"NumBlocks"},"attr":{"id":"225188","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"IOAudioEngineDescription"},"attr":{"id":"225190","ColType":"String","ColValue":"eqMac2"}},
+{"data":{"title":"IOAudioEngineClockDomain"},"attr":{"id":"225192","ColType":"Number","ColValue":"185632768"}},
+{"data":{"title":"IOAudioEngineSampleOffset"},"attr":{"id":"225194","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Formats"},"attr":{"id":"225196","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"225197","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOAudioStreamIsMixable"},"attr":{"id":"225199","ColType":"Number","ColValue":"1"}},{"data":{"title":"IOAudioStreamBitWidth"},"attr":{"id":"225201","ColType":"Number","ColValue":"32"}},{"data":{"title":"IOAudioStreamBitDepth"},"attr":{"id":"225203","ColType":"Number","ColValue":"32"}},{"data":{"title":"IOAudioStreamSampleFormat"},"attr":{"id":"225205","ColType":"Number","ColValue":"1819304813"}},{"data":{"title":"IOAudioStreamNumericRepresentation"},"attr":{"id":"225207","ColType":"Number","ColValue":"1936289396"}},{"data":{"title":"IOAudioStreamNumChannels"},"attr":{"id":"225209","ColType":"Number","ColValue":"2"}},{"data":{"title":"IOAudioStreamDriverTag"},"attr":{"id":"225211","ColType":"Number","ColValue":"0"}},{"data":{"title":"IOAudioStreamAlignment"},"attr":{"id":"225213","ColType":"Number","ColValue":"1"}},{"data":{"title":"IOAudioStreamByteOrder"},"attr":{"id":"225215","ColType":"Number","ColValue":"0"}}]}]},
+{"data":{"title":"SampleRates"},"attr":{"id":"225217","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"225218","ColType":"Number","ColValue":"44100"}},{"data":{"title":"1"},"attr":{"id":"225219","ColType":"Number","ColValue":"48000"}},{"data":{"title":"2"},"attr":{"id":"225220","ColType":"Number","ColValue":"88200"}},{"data":{"title":"3"},"attr":{"id":"225221","ColType":"Number","ColValue":"96000"}},{"data":{"title":"4"},"attr":{"id":"225222","ColType":"Number","ColValue":"176400"}},{"data":{"title":"5"},"attr":{"id":"225223","ColType":"Number","ColValue":"192000"}}]},
+{"data":{"title":"NumStreams"},"attr":{"id":"225225","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOAudioEngineFlavor"},"attr":{"id":"225227","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"BlockSize"},"attr":{"id":"225229","ColType":"Number","ColValue":"8192"}},
+{"data":{"title":"Description"},"attr":{"id":"225231","ColType":"String","ColValue":"eqMac2"}},
+{"data":{"title":"IOAudioSampleRate"},"attr":{"id":"225233","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOAudioSampleRateFraction"},"attr":{"id":"225235","ColType":"Number","ColValue":"0"}},{"data":{"title":"IOAudioSampleRateWholeNumber"},"attr":{"id":"225237","ColType":"Number","ColValue":"44100"}}]},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"225239","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOAudioEngineNumActiveUserClients"},"attr":{"id":"225241","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioEngineState"},"attr":{"id":"225243","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioEngineNumSampleFramesPerBuffer"},"attr":{"id":"225245","ColType":"Number","ColValue":"16384"}}
+]

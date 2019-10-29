@@ -1,0 +1,9 @@
+[
+{"data":{"title":"vendor"},"attr":{"id":"2546","ColType":"Data","ColValue":"&lt;\"Apple Inc.\"&gt;"}},
+{"data":{"title":"fv-main-address"},"attr":{"id":"2548","ColType":"Number","ColValue":"18446744073707454464"}},
+{"data":{"title":"rom-size"},"attr":{"id":"2550","ColType":"Number","ColValue":"16777216"}},
+{"data":{"title":"version"},"attr":{"id":"2552","ColType":"Data","ColValue":"&lt;\"MBP141.88Z.0173.B00.1802081002\"&gt;"}},
+{"data":{"title":"firmware-features"},"attr":{"id":"2554","ColType":"Number","ColValue":"4228899126"}},
+{"data":{"title":"release-date"},"attr":{"id":"2556","ColType":"Data","ColValue":"&lt;\"02/08/2018\"&gt;"}},
+{"data":{"title":"fv-main-size"},"attr":{"id":"2558","ColType":"Number","ColValue":"1048576"}}
+]
