@@ -1,0 +1,107 @@
+TODO: 
+- Brigthness control: Đang map vào fn f6 & fn B
+https://osxlatitude.com/forums/topic/11410-dell-latitude-7490-with-i7-8650u-intel-uhd-620-and-1920x1080-lcd-mojavecatalina/?ct=1571558611
+patch lại dsdt để brighntess chỉnh được ko cần sleep
+
+
+
+1. DSDT patch
+Guide: https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/
+
+Use 10.3 dsdt or new
+
+a. Decompile
+iasl -da -dl DSDT.aml SSDT*.aml
+
+b. Fix compile error
+- If (PM0H) syntax
+- XTBT Fix
+
+c. Apply patch
+- OS Check Fix
+- I2C alps touch pad
+
+Use 10.3 dsdt
+
+2. Frame buffer patching
+Guide:
+- https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/
+- https://translate.google.com/translate?js=n&sl=auto&tl=en&u=https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html
+
+
+3. USB
+Guide: 
+- https://translate.google.com/translate?js=n&sl=auto&tl=en&u=https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html
+https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/
+
+Use USBInjectAll.kext to inject all ports
+use boot flag to exclude ports: -uia_exclude_ss[hs] uia_include=HS01,HS02
+
+PCI Device ID:	0x9d2f 
+HS01 USB2: Right
+HS02 USB3: Left 1
+HS03 USB3: Left 2
+HS05 Internal Webcam
+HS07 Internal bluetooth
+HS10 5880
+SS03 USB3: Left 1
+SS04 USB3: Left 2
+UB21 Typec+Sw
+UB31 Typec+Sw
+
+Generate SSDT-EC & SSD-UIAC & USBPorts
+
+5. Wifi & bluetooth:
+M.2: BCM943602CS - native WiFi/ac and BT4LE (3 antennas)
+https://github.com/acidanthera/BrcmPatchRAM
+- AirportBrcmFixup kext
+- BrcmPatchRAM2.kext & BrcmFirmwareData.kext & BrcmBluetoothInjector.kext clover
+
+
+
+6. Keyboard & touchpad
+Kext: VoodooPS2, VoodooI2C, VoodooI2CHID
+- https://www.tonymacx86.com/threads/voodooi2c-help-and-support.243378/page-39
+GPIO Controller Enabler
+Windows 10 patch
+
+- Remove:
+  + AppleHPM.kext
+  + AppleIntelLpssI2C.kext
+  + AppleIntelLpssI2CController.kext
+
+7. Sound
+- Codec Vendor id: 0x10ec0256
+- DSDT Patches:
+	<dict>
+		<key>Comment</key>
+		<string>100-200-300-Series-Rename HDAS to HDEF</string>
+		<key>Disabled</key>
+		<false/>
+		<key>Find</key>
+		<data>
+		SERBUw==
+		</data>
+		<key>Replace</key>
+		<data>
+		SERFRg==
+		</data>
+	</dict>
+- config.plist / Devices / Audio / Inject 56 & ResetHDA
+- AppleALC.kext
+
+
+8. Backlight
+Still not work
+- ApplebackLightInjector: https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/
+- No need to inject ECID 0x9C7C
+
+Fn F6
+default	17:13:43.396037 +0700	kernel	ApplePS2Keyboard: sending key 46=6b down
+Fn F6
+default	17:19:28.021127 +0700	kernel	ApplePS2Keyboard: sending key 45=47 down
+
+
+9. Card reader
+Still not work
+- RTS525A PCI Express Card Reader: 	10ec525a
