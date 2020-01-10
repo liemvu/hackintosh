@@ -70,6 +70,10 @@ Windows 10 patch
   + AppleIntelLpssI2C.kext
   + AppleIntelLpssI2CController.kext
 
+Not test yest: 
+https://github.com/alexandred/VoodooI2CSynaptics
+replace device id in info.plist SYNA2393
+
 7. Sound
 - Codec Vendor id: 0x10ec0256
 - DSDT Patches:
