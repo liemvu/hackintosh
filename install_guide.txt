@@ -1,9 +1,3 @@
-TODO: 
-- Brigthness control: Đang map vào fn f6 & fn B
-https://osxlatitude.com/forums/topic/11410-dell-latitude-7490-with-i7-8650u-intel-uhd-620-and-1920x1080-lcd-mojavecatalina/?ct=1571558611
-patch lại dsdt để brighntess chỉnh được ko cần sleep
-
-
 
 1. DSDT patch
 Guide: https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/
@@ -19,16 +13,15 @@ b. Fix compile error
 
 c. Apply patch
 - OS Check Fix
+- Rename _DSM to XDSM
+- Fix _WAK Arg0 v2
+- Remove _PRW 0x6d skylake
+- Fix mutex
+- IRQ fix (restart after wake)
+- RTC fix
+- HPET fix
+- SMBuUS Fix
 - I2C alps touch pad
-
-Use 10.3 dsdt (
-	- Rename _DSM to XDSM
-	- Fix _WAK Arg0 v1
-	- Remove _PRW from LID
-	- Fix mutex
-	- IRQ fix (restart after wake)
-	- RTC fix
-)
 
 2. Frame buffer patching
 Guide:
@@ -107,10 +100,10 @@ Still not work
 - ApplebackLightInjector: https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/
 - No need to inject ECID 0x9C7C
 
-Fn F6
-default	17:13:43.396037 +0700	kernel	ApplePS2Keyboard: sending key 46=6b down
-Fn F6
-default	17:19:28.021127 +0700	kernel	ApplePS2Keyboard: sending key 45=47 down
+
+- Brigthness control: Đang map vào fn f6 & fn B
+https://osxlatitude.com/forums/topic/11410-dell-latitude-7490-with-i7-8650u-intel-uhd-620-and-1920x1080-lcd-mojavecatalina/?ct=1571558611
+patch lại dsdt để brighntess chỉnh được ko cần sleep
 
 
 9. Card reader
