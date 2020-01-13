@@ -37346,11 +37346,13 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
             If (LEqual (Arg0, One))
             {
                 Notify (LCD, 0x86)
+                Notify (\_SB.PCI0.LPCB.PS2M, 0x0366)     // Fn-F12 = Brightness up
             }
 
             If (And (Arg0, 0x02))
             {
                 Notify (LCD, 0x87)
+                Notify (\_SB.PCI0.LPCB.PS2M, 0x0365)     // Fn-F11 = Brightness down
             }
         }
 
