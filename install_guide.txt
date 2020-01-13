@@ -21,7 +21,14 @@ c. Apply patch
 - OS Check Fix
 - I2C alps touch pad
 
-Use 10.3 dsdt
+Use 10.3 dsdt (
+	- Rename _DSM to XDSM
+	- Fix _WAK Arg0 v1
+	- Remove _PRW from LID
+	- Fix mutex
+	- IRQ fix (restart after wake)
+	- RTC fix
+)
 
 2. Frame buffer patching
 Guide:
