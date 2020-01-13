@@ -13384,10 +13384,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                 PMES,   1
             }
 
-            Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-            {
-                Return (GPRW (0x6D, 0x04))
-            }
+            
 
             Method (GPEH, 0, NotSerialized)
             {
@@ -13402,6 +13399,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                     Notify (GLAN, 0x02)
                 }
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
         }
     }
 
@@ -13838,6 +13836,21 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                     }
                 }
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
+            Method (_DSM, 4, NotSerialized)
+            {
+                If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+                Return (Package()
+                {
+                    "subsystem-id", Buffer() { 0x70, 0x72, 0x00, 0x00 },
+                    "subsystem-vendor-id", Buffer() { 0x86, 0x80, 0x00, 0x00 },
+                    "AAPL,current-available", 2100,
+                    "AAPL,current-extra", 2200,
+                    "AAPL,current-extra-in-sleep", 1600,
+                    "AAPL,device-internal", 0x02,
+                    "AAPL,max-port-current-in-sleep", 2100,
+                })
+            }
         }
     }
 
@@ -14127,10 +14140,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                 }
             }
 
-            Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-            {
-                Return (GPRW (0x6D, 0x04))
-            }
+            
 
             Method (_DSW, 3, NotSerialized)  // _DSW: Device Sleep Wake
             {
@@ -14151,6 +14161,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                     Notify (XDCI, 0x02)
                 }
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
         }
     }
 
@@ -14180,10 +14191,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                 Store (Arg0, PMEE)
             }
 
-            Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-            {
-                Return (GPRW (0x6D, 0x04))
-            }
+            
 
             Method (GPEH, 0, NotSerialized)
             {
@@ -14323,6 +14331,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                     }
                 }
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
         }
 
         Device (SAT0)
@@ -16515,6 +16524,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
                     LPD3 (SB1A)
                 }
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
         }
     }
 
@@ -39550,33 +39560,7 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "CBX3   ", 0x01072009)
 
     Scope (_SB.PCI0.XHC)
     {
-        Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-        {
-            Store (UPRW (), Local0)
-            If (LEqual (Local0, 0x03))
-            {
-                Return (Package (0x02)
-                {
-                    0x6D, 
-                    0x03
-                })
-            }
-
-            If (LEqual (Local0, One))
-            {
-                Return (Package (0x02)
-                {
-                    0x6D, 
-                    One
-                })
-            }
-
-            Return (Package (0x02)
-            {
-                0x6D, 
-                Zero
-            })
-        }
+        
     }
 
     Scope (_SB.PCI0.SAT0.PRT1)
