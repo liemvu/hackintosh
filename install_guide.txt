@@ -1,3 +1,6 @@
+TODO:
+Thunderbolt hot plug
+
 
 1. DSDT patch
 Guide: https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/

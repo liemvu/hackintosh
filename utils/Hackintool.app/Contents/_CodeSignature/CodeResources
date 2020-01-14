@@ -22,15 +22,15 @@
 		</data>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		hfAi0+MRWUePqGDYY8e8IqZvC3Q=
+		DlvjNtkbt1ATU+p9SdMfaPn8Rj4=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		+qzEving5doxiOyRWk+ByfcY8sQ=
+		RUJY0HALQ9EO76P0QVTnR/l9UVI=
 		</data>
 		<key>Resources/Audio/Codecs.plist</key>
 		<data>
-		ryJbdWoxENOEDZSxwMKDZRNHJ+4=
+		Ic7EgBFMbGxDvI/1TLOGE0D3U/Y=
 		</data>
 		<key>Resources/Audio/Controllers.plist</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Resources/Base.lproj/Credits.rtf</key>
 		<data>
-		4Ok9K0rkSdhAJfJ7bKymUiF//0Y=
+		gNlnMn9T7qVBDjQOBs41TUQyix0=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
-		C8h4tJcJ/ijnQeFrdgTPoPdXQYM=
+		/rxe1bixCFaBSYOqgJnGFoK+sJg=
 		</data>
 		<key>Resources/Clover/config_patches.plist</key>
 		<data>
@@ -280,6 +280,60 @@
 			<key>hash</key>
 			<data>
 			d+XMCIhAq8LYD+c46yfmsBRj3GU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/Audio.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			60BclWgywLqxv0nOHBOX3AEGFZI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/Display.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9OmjXExr8nTkl1JDLWmww1nh1oA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/Hackintool.helpindex</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M08nKxLd5TVH5Yh+OKBEiT82A3I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y2aaNf7s+HjJfZAak58xmQMfXJA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/USB.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oktGtTPFgfpl+wgB+G+OoeYpG8Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/index.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mjg/NZBpxJT7klmNheQ5SyOyg+4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -812,7 +866,7 @@
 		</data>
 		<key>Resources/Kexts/kexts.plist</key>
 		<data>
-		kcmHjJdpmlkXajOuqmzk7bKVDXE=
+		LexRqJnTmYgP+DVDN2g2Sg1M3Hw=
 		</data>
 		<key>Resources/OpenCore/config.plist</key>
 		<data>
@@ -820,7 +874,7 @@
 		</data>
 		<key>Resources/PCI/pci.ids</key>
 		<data>
-		vP9VZS4j5ofb1bju8h6FsnhfXgg=
+		cOxt9wif2cMO/sIH2DUn3HMhfcY=
 		</data>
 		<key>Resources/USB/config_patches.plist</key>
 		<data>
@@ -846,7 +900,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			219gQBDfaaaaHqRD131hzpEJqo0=
+			TCKcyJjNnt1AT11ogX1CFSy14Io=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -864,7 +918,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nis4wbiIu1Alt05aq9bbzde/lWQ=
+			VroXxwYA345hgbRENpizE7g1L4U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -873,7 +927,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PZsBrEvBOZOSJ6JviW5W0NaSYVQ=
+			A8SUjlDpdh/Mddbzoe+o6dHkjls=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -882,7 +936,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/7u89UNTcmmXZazLGei1ZYr0zUg=
+			75MCWV8rzNKF7lFjPibtMQYbdqs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/tr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gzsL42jCAkMP+WO9yHq4ayGw48M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -891,7 +954,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MyOgDhmvy6RyBFtH5EI1Mk+itpI=
+			xjprJNRvL0pXLYb7d77zCGlRaQU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -909,7 +972,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zuoOFkCILYhxbERA+b0P/mJpvFA=
+			6LSOd4dwapxvFyThB8j+VnIEeHc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -921,7 +984,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			0PMUV4VgTskWzh94LjWnCodIuT8=
+			vXEKLLZk0whQwPZa6xhbQ33rBeM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.sparkle-project.Sparkle" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Ben Baker (V2HRS7667H)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -974,33 +1037,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hfAi0+MRWUePqGDYY8e8IqZvC3Q=
+			DlvjNtkbt1ATU+p9SdMfaPn8Rj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			jN91tZfWESp1we3cc2mNGQ6vbaBr4taHDhqHIVza8nc=
+			LAPEqWEAXq3+/u8li1MI02EHQ6yNwAjhqQ5EvwiHh2w=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+qzEving5doxiOyRWk+ByfcY8sQ=
+			RUJY0HALQ9EO76P0QVTnR/l9UVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jm70bL3ckVQexl+0uTleUAlWAK6I5iFY48uFBOgP2Yo=
+			ypTHU9KoJdQMiAR1Cr3cMY8W+sMAAa6eSUK0nFHJLr0=
 			</data>
 		</dict>
 		<key>Resources/Audio/Codecs.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ryJbdWoxENOEDZSxwMKDZRNHJ+4=
+			Ic7EgBFMbGxDvI/1TLOGE0D3U/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			2x4/X2sQmGognnUsbHtTN9aQErf4V1m5Lu+7D0dM+ww=
+			Pvt14QX1tq8tYLEs8B1OwEl0Dj8EGJf/db0wWZqBd+s=
 			</data>
 		</dict>
 		<key>Resources/Audio/Controllers.plist</key>
@@ -1073,22 +1136,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4Ok9K0rkSdhAJfJ7bKymUiF//0Y=
+			gNlnMn9T7qVBDjQOBs41TUQyix0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qxx37Bd9aMBNMKvl17/XOBn9eMyFgqJf/A4WCYW3Xmw=
+			EMJEbW2m1sXNzpjm4id/VJUWpYoSGSD0uXVr+xtyAwQ=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C8h4tJcJ/ijnQeFrdgTPoPdXQYM=
+			/rxe1bixCFaBSYOqgJnGFoK+sJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8rwiHALXJWlBo2Ha35jm0H3GPV4JGQH+CCYWLc8soeU=
+			mrsBy7cUviap+cN94WTNF6QpvS4+wtjCKFQC1cYtbm8=
 			</data>
 		</dict>
 		<key>Resources/Clover/config_patches.plist</key>
@@ -1551,6 +1614,84 @@
 			<key>hash2</key>
 			<data>
 			J1wUJ/cODvi5VfOC/qzE1BXuae7OXeMSF3+T0ZlLpe0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/Audio.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			60BclWgywLqxv0nOHBOX3AEGFZI=
+			</data>
+			<key>hash2</key>
+			<data>
+			lIGdNvhj+de/LDfoxJ6oDaxQgASMwldfXY3qRWzaB4o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/Display.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9OmjXExr8nTkl1JDLWmww1nh1oA=
+			</data>
+			<key>hash2</key>
+			<data>
+			2/CD8X5P39S4heQ154D6w/xpvgi2O3II6/4I/Nqs2io=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/Hackintool.helpindex</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M08nKxLd5TVH5Yh+OKBEiT82A3I=
+			</data>
+			<key>hash2</key>
+			<data>
+			5FdjJuXVnDSmg5WV+TKZ5Xtla5D0FmZrmn7+vMtzz5A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y2aaNf7s+HjJfZAak58xmQMfXJA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JEr3xqWvwY57pza5IVQiCKWow2Kzzrr7qvHRj3upxKg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/USB.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oktGtTPFgfpl+wgB+G+OoeYpG8Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			t2Jhko33whC+zVs1XbB+UgOhZ3zHG+gYMfhA6+gmnCE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Help/Contents/Resources/tr.lproj/index.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mjg/NZBpxJT7klmNheQ5SyOyg+4=
+			</data>
+			<key>hash2</key>
+			<data>
+			8QuGiec8qg3AlAQ7a4B8GxVfK+WKNo7ZqyZmHJmtqkk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2935,11 +3076,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kcmHjJdpmlkXajOuqmzk7bKVDXE=
+			LexRqJnTmYgP+DVDN2g2Sg1M3Hw=
 			</data>
 			<key>hash2</key>
 			<data>
-			BjIcAo6mCj3fkcqIK8pmXgndBlNBhn7xX/Po+xaBJTA=
+			D+yJwU8uFJCdBj1RpIExwQQdsPXOBqPIgG8Gty0sues=
 			</data>
 		</dict>
 		<key>Resources/OpenCore/config.plist</key>
@@ -2957,11 +3098,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vP9VZS4j5ofb1bju8h6FsnhfXgg=
+			cOxt9wif2cMO/sIH2DUn3HMhfcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			czhrPEHk5xzh9fFuLR/kvUoDl2uq/AqmMovW9UyOJME=
+			5KESPTtkc35Qh017HZc6tJtv4lTQKfgojjJTLBF0v0o=
 			</data>
 		</dict>
 		<key>Resources/USB/config_patches.plist</key>
@@ -3023,11 +3164,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			219gQBDfaaaaHqRD131hzpEJqo0=
+			TCKcyJjNnt1AT11ogX1CFSy14Io=
 			</data>
 			<key>hash2</key>
 			<data>
-			QcCnpqYxOTp5cG5R+kYd4VHV5gmouQHY/XR3A98tqxE=
+			xEBkVjETGmTOKTVcf/iUkhELo3OVQfEXjHN2QyvXypU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3049,11 +3190,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nis4wbiIu1Alt05aq9bbzde/lWQ=
+			VroXxwYA345hgbRENpizE7g1L4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			AuVCV1jY+6GDczE2IZSZql7utBKmr943V79yH0rkiLg=
+			3O5k9LHMiofoTBeyZTZeB/gVlJna0NjZe+DIv2L7ewE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3062,11 +3203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PZsBrEvBOZOSJ6JviW5W0NaSYVQ=
+			A8SUjlDpdh/Mddbzoe+o6dHkjls=
 			</data>
 			<key>hash2</key>
 			<data>
-			+2hTAI2Mi8KSL4NuG1B0hNDms4d2yRgVItobawd/zZo=
+			hqjg8BJJibjz9IAz9ypkv+bJMBfTDivcNPNQsD3aEOk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3075,11 +3216,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/7u89UNTcmmXZazLGei1ZYr0zUg=
+			75MCWV8rzNKF7lFjPibtMQYbdqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			rbIeZNd5t7ag4OcI1BJghX6ThZA79cWNBn2IPm9eKcg=
+			bZ7ZScJS7xiGf9oZ43Y4muzQ/IBWcd0zgJ6fPG/x2Dg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/tr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gzsL42jCAkMP+WO9yHq4ayGw48M=
+			</data>
+			<key>hash2</key>
+			<data>
+			FfY+MkPnu/QDs6CVS4AhewW6dhfsw4bPKA/NgcrOClQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3088,11 +3242,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MyOgDhmvy6RyBFtH5EI1Mk+itpI=
+			xjprJNRvL0pXLYb7d77zCGlRaQU=
 			</data>
 			<key>hash2</key>
 			<data>
-			77kGwFoM//eiv3EErnyYlzs8J8FyYzfAIpQ+Cg9h/nI=
+			CPph5ykWTh49DA1SIWpp8730u15A+eKDbw8A56cwJI8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3114,11 +3268,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zuoOFkCILYhxbERA+b0P/mJpvFA=
+			6LSOd4dwapxvFyThB8j+VnIEeHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VJsQ/nDIXSk7RxbQTIPhd9NzGE8gO0sCniKbMbYViT0=
+			dmR23enHpV8lKXvfhSkCoEi9hKEA939iCW51W/Q6Sl0=
 			</data>
 			<key>optional</key>
 			<true/>
