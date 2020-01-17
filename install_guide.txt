@@ -52,15 +52,15 @@ SS04 USB3: Left 2
 UB21 Typec+Sw
 UB31 Typec+Sw
 
-Generate SSDT-EC & SSD-UIAC & USBPorts
+Generate SSD-UIAC & USBPorts
+
+Use SSDT-USBX.aml from this script for usb power
+https://github.com/corpnewt/USBMap
 
 5. Wifi & bluetooth:
-M.2: BCM943602CS - native WiFi/ac and BT4LE (3 antennas)
+M.2: BCM943602CS - native WiFi/ac and BT4LE (3 antennas) (14e4:43ba)
 https://github.com/acidanthera/BrcmPatchRAM
-- AirportBrcmFixup kext
-- BrcmPatchRAM2.kext & BrcmFirmwareData.kext & BrcmBluetoothInjector.kext clover
-
-
+- AirportBrcmFixup, BrcmBluetoothInjector.kext, BrcmPatchRAM3.kext, BrcmFirmwareRepo.kext to /L/E
 
 6. Keyboard & touchpad
 Kext: VoodooPS2, VoodooI2C, VoodooI2CHID
